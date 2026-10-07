@@ -1,0 +1,34 @@
+--- a/ggml/src/ggml-cuda/ggml-cuda.cu
++++ b/ggml/src/ggml-cuda/ggml-cuda.cu
+@@ -684,14 +684,25 @@
+ };
+ #endif // defined(GGML_USE_VMM)
+ 
++struct issue28090_exact_pool : public ggml_cuda_pool {
++    int device;
++    explicit issue28090_exact_pool(int value) : device(value) {}
++    void * alloc(size_t size, size_t * actual_size) override {
++        ggml_cuda_set_device(device);
++        void * ptr = nullptr;
++        CUDA_CHECK(cudaMalloc(&ptr, size));
++        *actual_size = size;
++        return ptr;
++    }
++    void free(void * ptr, size_t) override {
++        ggml_cuda_set_device(device);
++        CUDA_CHECK(cudaFree(ptr));
++    }
++};
++
+ std::unique_ptr<ggml_cuda_pool> ggml_backend_cuda_context::new_pool_for_device(int                  device,
+                                                                                [[maybe_unused]] int stream_no) {
+-#if defined(GGML_USE_VMM)
+-    if (ggml_cuda_info().devices[device].vmm) {
+-        return std::unique_ptr<ggml_cuda_pool>(new ggml_cuda_pool_vmm(device));
+-    }
+-#endif // defined(GGML_USE_VMM)
+-    return std::unique_ptr<ggml_cuda_pool>(new ggml_cuda_pool_leg(device));
++    return std::unique_ptr<ggml_cuda_pool>(new issue28090_exact_pool(device));
+ }
+ 
+ // destroying a cuBLAS handle while a graph is being captured in a different thread can result in a CUDA error

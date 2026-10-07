@@ -1,0 +1,1267 @@
+========= COMPUTE-SANITIZER
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 45457 MiB):
+  Device 0: NVIDIA L20, compute capability 8.9, VMM: yes, VRAM: 45457 MiB
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=2,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=3,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=4,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=5,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=6,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=7,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=8,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=2,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=3,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=4,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=5,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=6,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=7,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=4096,n=8,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=2,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=3,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=4,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=5,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=6,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=7,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=1024,n=8,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=2,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=3,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=4,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=5,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=6,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=7,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=1024,n=8,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=2,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=3,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=4,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=5,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=6,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=7,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=14336,n=8,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=2,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=3,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=4,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=5,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=6,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=7,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q8_0,type_b=f32,m=14336,n=8,k=4096,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): [1;32mOK[0m
+  MUL_MAT(type_a=q4_0,type_b=f32,m=4096,n=2,k=14336,bs=[1,1],nr=[1,1],per=[0,1,2,3],k_v=0,o=1,src_overlap=0): ========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (0,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd40 is out of bounds
+=========     and is 65 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (1,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd44 is out of bounds
+=========     and is 69 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (2,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd48 is out of bounds
+=========     and is 73 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (3,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd4c is out of bounds
+=========     and is 77 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (4,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd50 is out of bounds
+=========     and is 81 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (5,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd54 is out of bounds
+=========     and is 85 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (6,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd58 is out of bounds
+=========     and is 89 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (7,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd5c is out of bounds
+=========     and is 93 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (8,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd60 is out of bounds
+=========     and is 97 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (9,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd64 is out of bounds
+=========     and is 101 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (10,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd68 is out of bounds
+=========     and is 105 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (11,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd6c is out of bounds
+=========     and is 109 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (12,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd70 is out of bounds
+=========     and is 113 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (13,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd74 is out of bounds
+=========     and is 117 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (14,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd78 is out of bounds
+=========     and is 121 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (15,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd7c is out of bounds
+=========     and is 125 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (16,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd80 is out of bounds
+=========     and is 128 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (17,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd84 is out of bounds
+=========     and is 124 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (18,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd88 is out of bounds
+=========     and is 120 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (19,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd8c is out of bounds
+=========     and is 116 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (20,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd90 is out of bounds
+=========     and is 112 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (21,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd94 is out of bounds
+=========     and is 108 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (22,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd98 is out of bounds
+=========     and is 104 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (23,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bd9c is out of bounds
+=========     and is 100 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (24,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bda0 is out of bounds
+=========     and is 96 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (25,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bda4 is out of bounds
+=========     and is 92 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (26,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bda8 is out of bounds
+=========     and is 88 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (27,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bdac is out of bounds
+=========     and is 84 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (28,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bdb0 is out of bounds
+=========     and is 80 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (29,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bdb4 is out of bounds
+=========     and is 76 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (30,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bdb8 is out of bounds
+=========     and is 72 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (31,6,0) in block (17,0,0)
+=========     Access to 0x7f750b20bdbc is out of bounds
+=========     and is 68 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (0,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd40 is out of bounds
+=========     and is 65 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (1,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd44 is out of bounds
+=========     and is 69 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (2,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd48 is out of bounds
+=========     and is 73 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (3,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd4c is out of bounds
+=========     and is 77 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (4,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd50 is out of bounds
+=========     and is 81 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (5,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd54 is out of bounds
+=========     and is 85 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (6,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd58 is out of bounds
+=========     and is 89 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (7,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd5c is out of bounds
+=========     and is 93 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (8,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd60 is out of bounds
+=========     and is 97 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (9,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd64 is out of bounds
+=========     and is 101 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (10,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd68 is out of bounds
+=========     and is 105 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (11,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd6c is out of bounds
+=========     and is 109 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (12,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd70 is out of bounds
+=========     and is 113 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (13,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd74 is out of bounds
+=========     and is 117 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (14,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd78 is out of bounds
+=========     and is 121 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (15,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd7c is out of bounds
+=========     and is 125 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (16,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd80 is out of bounds
+=========     and is 128 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (17,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd84 is out of bounds
+=========     and is 124 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (18,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd88 is out of bounds
+=========     and is 120 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (19,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd8c is out of bounds
+=========     and is 116 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (20,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd90 is out of bounds
+=========     and is 112 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (21,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd94 is out of bounds
+=========     and is 108 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (22,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd98 is out of bounds
+=========     and is 104 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (23,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd9c is out of bounds
+=========     and is 100 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (24,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bda0 is out of bounds
+=========     and is 96 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (25,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bda4 is out of bounds
+=========     and is 92 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (26,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bda8 is out of bounds
+=========     and is 88 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (27,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdac is out of bounds
+=========     and is 84 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (28,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdb0 is out of bounds
+=========     and is 80 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (29,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdb4 is out of bounds
+=========     and is 76 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (30,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdb8 is out of bounds
+=========     and is 72 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (31,6,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdbc is out of bounds
+=========     and is 68 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (0,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdc0 is out of bounds
+=========     and is 64 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (1,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdc4 is out of bounds
+=========     and is 60 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (2,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdc8 is out of bounds
+=========     and is 56 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (3,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdcc is out of bounds
+=========     and is 52 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (4,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdd0 is out of bounds
+=========     and is 48 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (5,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdd4 is out of bounds
+=========     and is 44 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (6,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdd8 is out of bounds
+=========     and is 40 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (7,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bddc is out of bounds
+=========     and is 36 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (8,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bde0 is out of bounds
+=========     and is 32 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (9,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bde4 is out of bounds
+=========     and is 28 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (10,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bde8 is out of bounds
+=========     and is 24 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (11,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdec is out of bounds
+=========     and is 20 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (12,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdf0 is out of bounds
+=========     and is 16 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (13,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdf4 is out of bounds
+=========     and is 12 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (14,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdf8 is out of bounds
+=========     and is 8 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (15,7,0) in block (63,0,0)
+=========     Access to 0x7f750b20bdfc is out of bounds
+=========     and is 4 bytes before the nearest allocation at 0x7f750b20be00 of size 376,832 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (16,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd00 is out of bounds
+=========     and is 1 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (17,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd04 is out of bounds
+=========     and is 5 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (18,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd08 is out of bounds
+=========     and is 9 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (19,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd0c is out of bounds
+=========     and is 13 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (20,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd10 is out of bounds
+=========     and is 17 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (21,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd14 is out of bounds
+=========     and is 21 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (22,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd18 is out of bounds
+=========     and is 25 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (23,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd1c is out of bounds
+=========     and is 29 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (24,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd20 is out of bounds
+=========     and is 33 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (25,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd24 is out of bounds
+=========     and is 37 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (26,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd28 is out of bounds
+=========     and is 41 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (27,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd2c is out of bounds
+=========     and is 45 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (28,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd30 is out of bounds
+=========     and is 49 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (29,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd34 is out of bounds
+=========     and is 53 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (30,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd38 is out of bounds
+=========     and is 57 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (31,5,0) in block (63,0,0)
+=========     Access to 0x7f750b20bd3c is out of bounds
+=========     and is 61 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (16,5,0) in block (20,0,0)
+=========     Access to 0x7f750b20bd00 is out of bounds
+=========     and is 1 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (17,5,0) in block (20,0,0)
+=========     Access to 0x7f750b20bd04 is out of bounds
+=========     and is 5 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (18,5,0) in block (20,0,0)
+=========     Access to 0x7f750b20bd08 is out of bounds
+=========     and is 9 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+========= Invalid __global__ read of size 4 bytes
+=========     at void mul_mat_q<(ggml_type)2, (int)8, (bool)0>(const char *, const int *, const int *, const int *, float *, float *, const float *, uint3, int, int, int, int, int, uint3, uint3, int, int, int, uint3, uint3, int, int, int, uint3)+0x1230
+=========     by thread (19,5,0) in block (20,0,0)
+=========     Access to 0x7f750b20bd0c is out of bounds
+=========     and is 13 bytes after the nearest allocation at 0x7f750b200000 of size 48,384 bytes
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: void launch_mul_mat_q<(ggml_type)2, 8, false>(ggml_backend_cuda_context&, mmq_args const&, CUstream_st*) [0x79628f] in dense-gate
+=========         Host Frame: ggml_cuda_mul_mat_q(ggml_backend_cuda_context&, ggml_tensor const*, ggml_tensor const*, ggml_tensor const*, ggml_tensor*) [0x2fe6d2] in dense-gate
+=========         Host Frame: ggml_backend_cuda_graph_compute(ggml_backend*, ggml_cgraph*) [0x2b5452] in dense-gate
+=========         Host Frame: ggml_backend_compare_graph_backend [0x1220a33] in dense-gate
+=========         Host Frame: main [0x470ba] in dense-gate
+========= 
+CUDA error: unspecified launch failure
+  current device: 0, in function free at /root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/src/ggml/src/ggml-cuda/ggml-cuda.cu:699
+  cudaFree(ptr)
+[1;32mOK[0m
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/src/ggml/src/ggml-cuda/ggml-cuda.cu:108: CUDA error
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x11fcf4b)[0x564ee347ff4b]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x11fd53f)[0x564ee348053f]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x11fd70e)[0x564ee348070e]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x2a3e16)[0x564ee2526e16]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x2b88b7)[0x564ee253b8b7]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x79602e)[0x564ee2a1902e]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x2fe6d3)[0x564ee25816d3]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x2b5453)[0x564ee2538453]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x1220a34)[0x564ee34a3a34]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0x470bb)[0x564ee22ca0bb]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f755a8a1d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f755a8a1e40]
+/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate(+0xa7775)[0x564ee232a775]
+========= Error: process didn't terminate successfully
+========= Target application returned an error
+========= ERROR SUMMARY: 385 errors
+========= ERROR SUMMARY: 285 errors were not printed. Use --print-limit option to adjust the number of printed errors

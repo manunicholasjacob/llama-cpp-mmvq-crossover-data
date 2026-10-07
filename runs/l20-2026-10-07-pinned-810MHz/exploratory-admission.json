@@ -1,0 +1,9 @@
+{
+  "status": "EXPLORATORY_STOCK_POOL_ONLY",
+  "strict_exact_pool_gate": "FAILED",
+  "default_pool_memcheck": "PASSED_168_CASES_ZERO_ERRORS",
+  "baseline_exact_pool_memcheck": "PASSED_168_CASES_ZERO_ERRORS",
+  "purpose": "Requested same-source L4/L20 performance comparison using unchanged stock-pool binaries.",
+  "limitation": "Forced small-n MMQ depends on allocator padding. These timings are not PR correctness acceptance.",
+  "controls_sha256": "5c15a481acb7c4e1e8136020b7c84b8a48793623440e82f8226a61bc6c1fd9d1"
+}

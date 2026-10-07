@@ -1,0 +1,20 @@
+{
+  "1b": {
+    "http_code": 206,
+    "size_download": 1048576,
+    "speed_download": 1136251,
+    "time_total": 0.922838
+  },
+  "3b": {
+    "http_code": 206,
+    "size_download": 1048576,
+    "speed_download": 2371206,
+    "time_total": 0.442212
+  },
+  "8b": {
+    "http_code": 206,
+    "size_download": 1048576,
+    "speed_download": 1854170,
+    "time_total": 0.565523
+  }
+}

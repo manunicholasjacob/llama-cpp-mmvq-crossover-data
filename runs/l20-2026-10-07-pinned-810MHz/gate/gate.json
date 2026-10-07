@@ -1,0 +1,53 @@
+{
+  "status": "FAILED",
+  "device": {
+    "name": "NVIDIA L20",
+    "cc": "8.9",
+    "sm_count": 92,
+    "memory_bytes": 47665709056,
+    "l2_bytes": 100663296,
+    "memory_bus_bits": 384
+  },
+  "build_sha256": "58cb0a205cdf76369763a0ea6801073f951318a42f41aa5dd8e726690e3416b1",
+  "harness_sha256": "10b101ab5722012af5e4bdac2ca428d3ad9fafd429ea6352e6f1761f0004e0cf",
+  "expected_cases_per_command": 168,
+  "coverage": "Q4_0/Q8_0 n2..8, 12 attention/FFN geometries; excludes output head and full-model correctness",
+  "commands": [
+    {
+      "world": "selected",
+      "command": [
+        "/root/issue28090/l20-810-bundle/work/selected/build/bin/dense-gate"
+      ],
+      "log": "selected.log"
+    },
+    {
+      "world": "force_mmq",
+      "command": [
+        "/root/issue28090/l20-810-bundle/work/force_mmq/build/bin/dense-gate"
+      ],
+      "log": "force_mmq.log"
+    },
+    {
+      "world": "cutoff7",
+      "command": [
+        "/root/issue28090/l20-810-bundle/work/cutoff7/build/bin/dense-gate"
+      ],
+      "log": "cutoff7.log"
+    },
+    {
+      "world": "force_mmq_exact_pool",
+      "command": [
+        "compute-sanitizer",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "99",
+        "--target-processes",
+        "all",
+        "/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate"
+      ],
+      "log": "force_mmq_exact_pool.log"
+    }
+  ],
+  "error": "Command '['compute-sanitizer', '--tool', 'memcheck', '--error-exitcode', '99', '--target-processes', 'all', '/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate']' returned non-zero exit status 99."
+}

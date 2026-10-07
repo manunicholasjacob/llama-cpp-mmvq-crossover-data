@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE_EXPLORATORY_REQUIRES_CLOCK_AND_PADDING_REVIEW",
+  "device": {
+    "name": "NVIDIA L20",
+    "cc": "8.9",
+    "sm_count": 92,
+    "memory_bytes": 47665709056,
+    "l2_bytes": 100663296,
+    "memory_bus_bits": 384
+  },
+  "utc": "2026-10-07T15:36:55Z",
+  "host": "Linux iZ0xiatcjtkbsrkv0ztp9bZ 5.15.0-191-generic #201-Ubuntu SMP Fri Aug 7 18:39:04 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux",
+  "telemetry_fields": "clocks.sm,clocks.mem,power.draw,power.limit,temperature.gpu,utilization.gpu,clocks_event_reasons.active",
+  "target_sm_mhz": 810,
+  "clock_scope": "per invocation, not individual n8 slices",
+  "invocations_completed": 144,
+  "admission": {
+    "status": "EXPLORATORY_STOCK_POOL_ONLY",
+    "strict_exact_pool_gate": "FAILED",
+    "default_pool_memcheck": "PASSED_168_CASES_ZERO_ERRORS",
+    "baseline_exact_pool_memcheck": "PASSED_168_CASES_ZERO_ERRORS",
+    "purpose": "Requested same-source L4/L20 performance comparison using unchanged stock-pool binaries.",
+    "limitation": "Forced small-n MMQ depends on allocator padding. These timings are not PR correctness acceptance.",
+    "controls_sha256": "5c15a481acb7c4e1e8136020b7c84b8a48793623440e82f8226a61bc6c1fd9d1"
+  }
+}

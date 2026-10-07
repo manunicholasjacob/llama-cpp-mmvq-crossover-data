@@ -1,0 +1,110 @@
+{
+  "status": "DEPLOYMENT_BUNDLE_READY_MODELS_AND_GPU_GATES_PENDING",
+  "date": "2026-10-07",
+  "purpose": "Controlled L20 replication of collaborator L4 pinned run, followed by conservative routing-rule assessment",
+  "upstream_data_commit": "c2ff5407413093b2221d0f51ae5329416eda7893",
+  "runtime_commit": "b96806d96061049a5b574269b049bf6241d63d46",
+  "gpu": {
+    "name": "NVIDIA L20",
+    "cc": "8.9",
+    "sm_count": 92,
+    "full_exclusive_gpu": true,
+    "sm_pin_mhz": 810,
+    "memory_clock": "stock; capture actual per invocation; do not assume equal bandwidth to L4"
+  },
+  "preferred_toolchain": {
+    "cuda": "13.0.88 (match October L4)",
+    "arch": "89",
+    "driver": "record exact version and compatibility; collaborator driver 580.82.07"
+  },
+  "worlds": [
+    "selected",
+    "force_mmq",
+    "cutoff7",
+    "null_rebuild"
+  ],
+  "models_lock": "models.lock.json",
+  "input_policy": "All six quantized file hashes must match collaborator October manifest; if regeneration differs, resolve provenance before timing",
+  "models": [
+    "8b",
+    "3b",
+    "1b"
+  ],
+  "quants": [
+    "Q4_0",
+    "Q8_0"
+  ],
+  "n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "rounds": 6,
+  "inner_repeats": 30,
+  "bench_flags": [
+    "-ngl",
+    "999",
+    "-fa",
+    "1",
+    "-n",
+    "0",
+    "-embd",
+    "1",
+    "-t",
+    "4",
+    "-b",
+    "2048",
+    "-ub",
+    "512",
+    "-p",
+    "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+    "-r",
+    "30",
+    "-o",
+    "json"
+  ],
+  "rotation": "Four binary order rotated each outer round; record positions, model order and actual wall times; six rounds is not a balanced four-world Latin square",
+  "primary": "paired geometric mean throughput ratio at n=8 per model/type",
+  "secondary": "full force_mmq curve at n=2..8; crossover exceeding same paired null-floor definition",
+  "controls": {
+    "n1": "all four route identically for these types",
+    "n9_to_16": "all four route MMQ",
+    "cutoff7_n2_to_7": "identical route to selected"
+  },
+  "statistics": {
+    "outer_round_unit": true,
+    "bootstrap": "95% percentile, 10000 resamples; record seed and implementation; descriptive, not simultaneous confidence",
+    "noise_floor": "max abs(paired_gm(null_rebuild/selected)-1), n=2..8",
+    "old_vs_new_datasets": "Keep separate; never average different model hashes/toolchains/pins"
+  },
+  "before_timing": [
+    "Verify all six quantized input hashes and source provenance",
+    "Independent same-source null rebuild and save CMakeCaches, compiler flags and binary hashes",
+    "Dense MUL_MAT numerical comparison for Q4_0/Q8_0, n=2..8, relevant geometries",
+    "Compute-sanitizer on diagnostic exact-allocation pool (separate from stock-pool timing); stock VMM alone can hide overreads",
+    "If n<8 shows invalid access, preserve evidence and do not publish those timings as validated; jointly agree the matched safe-source protocol rather than silently patching one world"
+  ],
+  "telemetry": "Per invocation timestamped SM/memory clocks, power, thermal state, clock-event reasons, actual achieved pin. Do not equate requested pin with held pin or per-invocation means with n8-only clocks.",
+  "interpretation": "Same nominal clock reduces a confounder, does not prove nsm causality; rule needs dp4a precondition plus affected-model/shape regression review",
+  "server": "Single L20 sufficient; no need rerun V100 stock now",
+  "remaining": [
+    "Verify rented-host model download connectivity before prolonged build or timing",
+    "Restore six quantized hashes on rented host, concurrent with builds",
+    "CUDA numerical/memcheck gates and achieved pin verification on L20"
+  ],
+  "diagnostic": "force_mmq_exact_pool: exact cudaMalloc temporary allocations, CUDA Graph OFF; excluded from timing",
+  "correctness_coverage": "12 attention/FFN geometries per type at n2..8, 168 cases per route; excludes output head and full-model correctness"
+}

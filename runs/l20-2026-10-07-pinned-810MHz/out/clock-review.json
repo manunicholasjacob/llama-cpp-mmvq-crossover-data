@@ -1,0 +1,15 @@
+{
+  "scope": "Invocation-wide samples with utilization.gpu > 0; includes model load and every n, not isolated n8 slices",
+  "invocations": 144,
+  "all_have_busy_samples": true,
+  "sm_min_mhz": 810.0,
+  "sm_max_mhz": 810.0,
+  "minimum_fraction_at_810_mhz": 1.0,
+  "memory_mean_mhz_values": [
+    9001.0
+  ],
+  "clock_event_reason_masks": [
+    "0x0000000000000000"
+  ],
+  "max_temperature_c": 46.0
+}
