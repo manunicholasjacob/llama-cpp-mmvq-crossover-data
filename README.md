@@ -109,3 +109,9 @@ so the ne11 = 8 column is directly comparable with a `cutoff7 / selected` measur
 - Differences from zhihz's V100/L20 protocol: no `-t 4` (llama-bench default threads; with every
   layer offloaded the thread count should not matter, but it is a difference), `force_mmq` instead
   of `cutoff7` (identical routing at ne11 = 8, see above).
+
+## License
+
+Data, tables and documentation: CC BY 4.0 (see `LICENSE`). Scripts under `code/`: MIT.
+Please cite as: Manu Nicholas Jacob, "MMVQ vs MMQ crossover data, five NVIDIA architectures", 2026,
+https://github.com/manunicholasjacob/llama-cpp-mmvq-crossover-data
