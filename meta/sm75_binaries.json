@@ -1,0 +1,12 @@
+{
+ "head": "b96806d96061049a5b574269b049bf6241d63d46",
+ "arch": "75",
+ "pool": "legacy pool (GGML_CUDA_NO_VMM=ON fallback, configure failed with CUDA::cuda_driver)",
+ "sha256": {
+  "selected": "10fd93ef78e8b148d69f26554c1ee8e81c5dbf710b1ba3c4ca5edd8e585f4dd5",
+  "force_mmq": "92dcb6e15ae7368bff4d39b7ef529d6f542a43d15301324a088710c4c39e8cc4",
+  "null_rebuild": "3770b8d624f8e9a847b2a2217b0f47854256f82aaf9799b46823bdb30e993cf2",
+  "test-backend-ops.unfixed": "0d982f76f2798d39091831e32be73308469ddea513174df3151d067fa105f0d8",
+  "test-backend-ops.fixed": "5f6bbe12028ed28161be1efce2c43b4312fc8996a1ca8e25d457225f5054c8fe"
+ }
+}

@@ -1,0 +1,11 @@
+--- a/ggml/src/ggml-cuda/mmvq.cu
++++ b/ggml/src/ggml-cuda/mmvq.cu
+@@ -369,7 +369,7 @@
+                 return ne11 <= MMVQ_MAX_BATCH_SIZE;
+         }
+     }
+-    return ne11 <= MMVQ_MAX_BATCH_SIZE;
++    return ne11 <= 1;
+ }
+ 
+ // Device constexpr: returns the max batch size for the current arch+type at compile time.

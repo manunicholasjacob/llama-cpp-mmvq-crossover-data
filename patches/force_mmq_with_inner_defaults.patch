@@ -1,0 +1,44 @@
+--- a/ggml/src/ggml-cuda/mmvq.cu
++++ b/ggml/src/ggml-cuda/mmvq.cu
+@@ -302,7 +302,7 @@
+             case GGML_TYPE_Q5_K:
+                 return ne11 <= 7;
+             default:
+-                return ne11 <= MMVQ_MAX_BATCH_SIZE;
++                return ne11 <= 1;
+         }
+     }
+     if (GGML_CUDA_CC_IS_NVIDIA(cc) && cc == GGML_CUDA_CC_BLACKWELL) {
+@@ -315,7 +315,7 @@
+             case GGML_TYPE_Q6_K:
+                 return ne11 <= 7;
+             default:
+-                return ne11 <= MMVQ_MAX_BATCH_SIZE;
++                return ne11 <= 1;
+         }
+     }
+     if (GGML_CUDA_CC_IS_NVIDIA(cc) && cc == GGML_CUDA_CC_DGX_SPARK) {
+@@ -323,7 +323,7 @@
+             case GGML_TYPE_Q2_K:
+                 return ne11 <= 6;
+             default:
+-                return ne11 <= MMVQ_MAX_BATCH_SIZE;
++                return ne11 <= 1;
+         }
+     }
+     if (GGML_CUDA_CC_IS_CDNA(cc)) {
+@@ -366,10 +366,10 @@
+             case GGML_TYPE_Q6_K:
+                 return ne11 <= 5;
+             default:
+-                return ne11 <= MMVQ_MAX_BATCH_SIZE;
+-        }
+-    }
+-    return ne11 <= MMVQ_MAX_BATCH_SIZE;
++                return ne11 <= 1;
++        }
++    }
++    return ne11 <= 1;
+ }
+ 
+ // Device constexpr: returns the max batch size for the current arch+type at compile time.

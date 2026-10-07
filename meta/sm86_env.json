@@ -1,0 +1,11 @@
+{
+ "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "compute_cap": "8.6",
+ "driver": "596.08",
+ "vram_mib": "4096",
+ "nvcc": "Build cuda_13.2.r13.2/compiler.37953736_0",
+ "when": "2026-09-02T02:53:53.170296Z",
+ "pin": "b96806d96",
+ "python": "3.14.4",
+ "platform": "local-wsl2"
+}

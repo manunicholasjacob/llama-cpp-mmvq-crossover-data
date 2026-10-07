@@ -1,0 +1,11 @@
+{
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "compute_cap": "8.0",
+ "driver": "580.82.07",
+ "vram_mib": "40960",
+ "nvcc": "Build cuda_12.8.r12.8/compiler.35583870_0",
+ "when": "2026-09-02T14:39:04.468098+00:00",
+ "pin": "b96806d96",
+ "python": "3.13.15",
+ "platform": "colab"
+}

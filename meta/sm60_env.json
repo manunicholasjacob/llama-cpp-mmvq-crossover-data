@@ -1,0 +1,11 @@
+{
+ "gpu": "Tesla P100-PCIE-16GB",
+ "compute_cap": "6.0",
+ "driver": "580.159.04",
+ "vram_mib": "16384",
+ "nvcc": "Build cuda_12.8.r12.8/compiler.35583870_0",
+ "when": "2026-09-02T03:07:58.392471+00:00",
+ "pin": "b96806d96",
+ "python": "3.12.13",
+ "platform": "kaggle"
+}

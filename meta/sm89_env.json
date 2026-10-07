@@ -1,0 +1,11 @@
+{
+ "gpu": "NVIDIA L4",
+ "compute_cap": "8.9",
+ "driver": "580.82.07",
+ "vram_mib": "23034",
+ "nvcc": "Build cuda_12.8.r12.8/compiler.35583870_0",
+ "when": "2026-09-02T18:15:10.304702+00:00",
+ "pin": "b96806d96",
+ "python": "3.13.15",
+ "platform": "colab"
+}

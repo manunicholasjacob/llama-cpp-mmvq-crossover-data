@@ -1,0 +1,12 @@
+{
+ "head": "b96806d96061049a5b574269b049bf6241d63d46",
+ "arch": "86",
+ "pool": "vmm pool (stock)",
+ "sha256": {
+  "selected": "05594c7a57dce937afe65cfd3867f0a80f4fe11b5d766d05d611574353b1c1a3",
+  "force_mmq": "af94bbbbc8a768f8bf9cf3a49fdf99d4f19ff14c051d28a1c35611bf92e28179",
+  "null_rebuild": "d5f9db477ff6c4f489a65e363bcc8e1fb848d7fdc526df665aec27964c17b213",
+  "test-backend-ops.unfixed": "05843774fd8101313edb940568acd612b269c2e716d72d5fa36a393f529fb93e",
+  "test-backend-ops.fixed": "d61fd3145fefaadcc347729a9cbaa6bdc64d8fd4e7297443a71408c304ecd64a"
+ }
+}
