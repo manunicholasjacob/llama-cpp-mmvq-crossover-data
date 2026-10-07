@@ -1,0 +1,21 @@
+{
+ "sha256": {
+  "selected": "75331a6daac3b9ce3d71da607c5b6fa5e95512f567ac254d1924dff5037de5aa",
+  "force_mmq": "974453171494c5770c928c8cb551b6178aceea90383049e2f3b1795b331d7c40",
+  "cutoff7": "da109ad20b98af6b6b52a70944fb4a2f9a12a2828d69d801d8d51444429b2bbf",
+  "null_rebuild": "01c19ee435ab1790f673ec93b16b751c702ffd8531c767e859f8193483cfacb7"
+ },
+ "pool": {
+  "selected": "vmm pool (stock)",
+  "force_mmq": "vmm pool (stock)",
+  "cutoff7": "vmm pool (stock)",
+  "null_rebuild": "vmm pool (stock)"
+ },
+ "build_s": {
+  "selected": 585,
+  "force_mmq": 554,
+  "cutoff7": 558,
+  "null_rebuild": 557
+ },
+ "arch": "89"
+}

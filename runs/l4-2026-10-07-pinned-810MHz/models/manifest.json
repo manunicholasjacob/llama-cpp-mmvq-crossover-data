@@ -1,0 +1,44 @@
+{
+ "llama3.1-8b-pure-q4_0.gguf": {
+  "bytes": 4525778048,
+  "sha256": "091a4dce9d0760cb507eba592c853b41ab8ee07f4fbbb88cf05f7db0d2fcdc39",
+  "source": "https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF/resolve/600b0020115fd6b17f0752848fe7b5a1be686bcd/Llama-3.1-8B-Instruct-BF16.gguf",
+  "source_sha256": "00bea1d086a0bffd8a37e0730124036739d27ac05c455933beb5714771e34a63",
+  "quantize": "llama-quantize --pure --allow-requantize (selected, b96806d96)"
+ },
+ "llama3.1-8b-pure-q8_0.gguf": {
+  "bytes": 8540775552,
+  "sha256": "b4c96591baf9544a7df6a86675f86c9ee11f1dd3ea4fb8ee2327f46cd0fe02be",
+  "source": "https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF/resolve/600b0020115fd6b17f0752848fe7b5a1be686bcd/Llama-3.1-8B-Instruct-BF16.gguf",
+  "source_sha256": "00bea1d086a0bffd8a37e0730124036739d27ac05c455933beb5714771e34a63",
+  "quantize": "llama-quantize --pure --allow-requantize (selected, b96806d96)"
+ },
+ "llama3.2-3b-pure-q4_0.gguf": {
+  "bytes": 1815611456,
+  "sha256": "44e82adc508b2c75882ac871d1637b194cacd5d95a1497d93046980f559c2f05",
+  "source": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF/resolve/e7d0997e49c9cb00d88b4c1a6a16aa894b0bbc31/Llama-3.2-3B-Instruct-F16.gguf",
+  "source_sha256": "db0ebda07c65c6cc6d15fb1c28f0f401fe64003aa88cfbf701be58a1c4122d54",
+  "quantize": "llama-quantize --pure --allow-requantize (selected, b96806d96)"
+ },
+ "llama3.2-3b-pure-q8_0.gguf": {
+  "bytes": 3421898816,
+  "sha256": "10f5a6adfed0f3deb720b5932d5aab4fe211bb7c10331d671448bc843f453801",
+  "source": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF/resolve/e7d0997e49c9cb00d88b4c1a6a16aa894b0bbc31/Llama-3.2-3B-Instruct-F16.gguf",
+  "source_sha256": "db0ebda07c65c6cc6d15fb1c28f0f401fe64003aa88cfbf701be58a1c4122d54",
+  "quantize": "llama-quantize --pure --allow-requantize (selected, b96806d96)"
+ },
+ "llama3.2-1b-pure-q4_0.gguf": {
+  "bytes": 703209120,
+  "sha256": "e1133ad66ab93ebcc3d318bdbd6e4a3ba1f5f21cd0eed6e71618fd24b5dfd6e2",
+  "source": "https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF/resolve/b69aef112e9f895e6f98d7ae0949f72ff09aa401/Llama-3.2-1B-Instruct-F16.gguf",
+  "source_sha256": "7e2a46fe01895b16776ed927aac8f56c5661a06d47c8a6f87ec297c805fbe3c2",
+  "quantize": "llama-quantize --pure --allow-requantize (selected, b96806d96)"
+ },
+ "llama3.2-1b-pure-q8_0.gguf": {
+  "bytes": 1321082528,
+  "sha256": "0998a00fb620982babd272d5bb882a4fb4cf529da5099a8cacea606c1de9d778",
+  "source": "https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF/resolve/b69aef112e9f895e6f98d7ae0949f72ff09aa401/Llama-3.2-1B-Instruct-F16.gguf",
+  "source_sha256": "7e2a46fe01895b16776ed927aac8f56c5661a06d47c8a6f87ec297c805fbe3c2",
+  "quantize": "llama-quantize --pure --allow-requantize (selected, b96806d96)"
+ }
+}

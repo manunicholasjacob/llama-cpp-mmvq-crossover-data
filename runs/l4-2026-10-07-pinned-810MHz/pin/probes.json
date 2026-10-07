@@ -1,0 +1,382 @@
+[
+ {
+  "session": "20261007T021719Z",
+  "binaries": [
+   "selected"
+  ],
+  "seconds": 60,
+  "results": [
+   {
+    "pin_mhz": 1395,
+    "requested": 1395,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 615,
+      "busy_samples": 460,
+      "sm_mhz_mean": 846.7826086956521,
+      "sm_mhz_min": 720,
+      "sm_mhz_max": 1395,
+      "sm_mhz_p10": 750,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.64716304347826,
+      "power_w_min": 31.904,
+      "power_w_max": 73.646,
+      "temp_c_mean": 68.70652173913044,
+      "temp_c_min": 60,
+      "temp_c_max": 75,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.9565217391304348,
+      "bad_reason_frac": 0.9565217391304348,
+      "pin_mhz": 1395,
+      "pin_held_frac": 0.043478260869565216,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   },
+   {
+    "pin_mhz": 1305,
+    "requested": 1305,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 646,
+      "busy_samples": 498,
+      "sm_mhz_mean": 787.7710843373494,
+      "sm_mhz_min": 675,
+      "sm_mhz_max": 1395,
+      "sm_mhz_p10": 705,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.8542891566265,
+      "power_w_min": 33.163,
+      "power_w_max": 73.699,
+      "temp_c_mean": 78.31927710843374,
+      "temp_c_min": 73,
+      "temp_c_max": 81,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.9578313253012049,
+      "bad_reason_frac": 0.9578313253012049,
+      "pin_mhz": 1305,
+      "pin_held_frac": 0.050200803212851405,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   },
+   {
+    "pin_mhz": 1200,
+    "requested": 1200,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 641,
+      "busy_samples": 493,
+      "sm_mhz_mean": 794.421906693712,
+      "sm_mhz_min": 690,
+      "sm_mhz_max": 1305,
+      "sm_mhz_p10": 720,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.6252373225152,
+      "power_w_min": 31.431,
+      "power_w_max": 73.53,
+      "temp_c_mean": 76.71196754563894,
+      "temp_c_min": 73,
+      "temp_c_max": 79,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.9533468559837728,
+      "bad_reason_frac": 0.9533468559837728,
+      "pin_mhz": 1200,
+      "pin_held_frac": 0.060851926977687626,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   },
+   {
+    "pin_mhz": 1110,
+    "requested": 1110,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 643,
+      "busy_samples": 485,
+      "sm_mhz_mean": 782.5979381443299,
+      "sm_mhz_min": 675,
+      "sm_mhz_max": 1200,
+      "sm_mhz_p10": 720,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.7943587628866,
+      "power_w_min": 30.986,
+      "power_w_max": 73.068,
+      "temp_c_mean": 77.25154639175258,
+      "temp_c_min": 73,
+      "temp_c_max": 79,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.9608247422680413,
+      "bad_reason_frac": 0.9608247422680413,
+      "pin_mhz": 1110,
+      "pin_held_frac": 0.03917525773195876,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   },
+   {
+    "pin_mhz": 1005,
+    "requested": 1005,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 642,
+      "busy_samples": 496,
+      "sm_mhz_mean": 787.8629032258065,
+      "sm_mhz_min": 675,
+      "sm_mhz_max": 1110,
+      "sm_mhz_p10": 735,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.5528185483871,
+      "power_w_min": 31.112,
+      "power_w_max": 73.541,
+      "temp_c_mean": 77.37298387096774,
+      "temp_c_min": 74,
+      "temp_c_max": 78,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.9475806451612904,
+      "bad_reason_frac": 0.9475806451612904,
+      "pin_mhz": 1005,
+      "pin_held_frac": 0.0625,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   },
+   {
+    "pin_mhz": 900,
+    "requested": 900,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 641,
+      "busy_samples": 484,
+      "sm_mhz_mean": 788.9876033057851,
+      "sm_mhz_min": 690,
+      "sm_mhz_max": 1005,
+      "sm_mhz_p10": 735,
+      "mem_mhz_mean": 6250.997933884298,
+      "mem_mhz_min": 6250,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.8431570247934,
+      "power_w_min": 30.58,
+      "power_w_max": 73.258,
+      "temp_c_mean": 77.31818181818181,
+      "temp_c_min": 75,
+      "temp_c_max": 78,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.9442148760330579,
+      "bad_reason_frac": 0.9442148760330579,
+      "pin_mhz": 900,
+      "pin_held_frac": 0.05165289256198347,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   },
+   {
+    "pin_mhz": 810,
+    "requested": 810,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 648,
+      "busy_samples": 494,
+      "sm_mhz_mean": 781.9736842105264,
+      "sm_mhz_min": 705,
+      "sm_mhz_max": 900,
+      "sm_mhz_p10": 750,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.36277125506074,
+      "power_w_min": 30.347,
+      "power_w_max": 73.428,
+      "temp_c_mean": 77.41295546558705,
+      "temp_c_min": 75,
+      "temp_c_max": 78,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.7368421052631579,
+      "bad_reason_frac": 0.7368421052631579,
+      "pin_mhz": 810,
+      "pin_held_frac": 0.4534412955465587,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   }
+  ],
+  "chosen": 810,
+  "held": false,
+  "when": "2026-10-07T02:26:57.545410+00:00"
+ },
+ {
+  "session": "20261007T021719Z",
+  "binaries": [
+   "selected",
+   "force_mmq"
+  ],
+  "seconds": 60,
+  "results": [
+   {
+    "pin_mhz": 810,
+    "requested": 810,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 649,
+      "busy_samples": 492,
+      "sm_mhz_mean": 775.8841463414634,
+      "sm_mhz_min": 675,
+      "sm_mhz_max": 810,
+      "sm_mhz_p10": 735,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.59919105691057,
+      "power_w_min": 29.658,
+      "power_w_max": 73.321,
+      "temp_c_mean": 78.39430894308943,
+      "temp_c_min": 74,
+      "temp_c_max": 81,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.7703252032520326,
+      "bad_reason_frac": 0.7703252032520326,
+      "pin_mhz": 810,
+      "pin_held_frac": 0.38414634146341464,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   }
+  ],
+  "chosen": 810,
+  "held": false,
+  "when": "2026-10-07T02:28:11.434965+00:00"
+ },
+ {
+  "session": "20261007T101351Z",
+  "binaries": [
+   "selected"
+  ],
+  "seconds": 60,
+  "results": [
+   {
+    "pin_mhz": 810,
+    "requested": 810,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 634,
+      "busy_samples": 480,
+      "sm_mhz_mean": 806.78125,
+      "sm_mhz_min": 735,
+      "sm_mhz_max": 810,
+      "sm_mhz_p10": 795,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 67.28432291666667,
+      "power_w_min": 28.754,
+      "power_w_max": 72.525,
+      "temp_c_mean": 62.82083333333333,
+      "temp_c_min": 53,
+      "temp_c_max": 70,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.18125,
+      "bad_reason_frac": 0.18125,
+      "pin_mhz": 810,
+      "pin_held_frac": 0.9416666666666667,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   }
+  ],
+  "chosen": 810,
+  "held": false,
+  "when": "2026-10-07T10:18:00.472329+00:00"
+ },
+ {
+  "session": "20261007T101351Z",
+  "binaries": [
+   "selected",
+   "force_mmq"
+  ],
+  "seconds": 60,
+  "results": [
+   {
+    "pin_mhz": 810,
+    "requested": 810,
+    "pass": false,
+    "per_binary": {
+     "selected": {
+      "samples": 654,
+      "busy_samples": 499,
+      "sm_mhz_mean": 766.2625250501002,
+      "sm_mhz_min": 675,
+      "sm_mhz_max": 810,
+      "sm_mhz_p10": 705,
+      "mem_mhz_mean": 6251.0,
+      "mem_mhz_min": 6251,
+      "mem_mhz_max": 6251,
+      "power_w_mean": 68.47225250501002,
+      "power_w_min": 29.378,
+      "power_w_max": 72.922,
+      "temp_c_mean": 73.6993987975952,
+      "temp_c_min": 66,
+      "temp_c_max": 79,
+      "reasons_or": 4,
+      "reasons": "sw_power_cap",
+      "power_cap_frac": 0.7034068136272545,
+      "bad_reason_frac": 0.7034068136272545,
+      "pin_mhz": 810,
+      "pin_held_frac": 0.3867735470941884,
+      "binary": "selected",
+      "invocations": 8,
+      "pass": false
+     }
+    }
+   }
+  ],
+  "chosen": 810,
+  "held": false,
+  "when": "2026-10-07T10:19:17.428046+00:00"
+ }
+]

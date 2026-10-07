@@ -1,0 +1,10 @@
+{
+ "head": "b96806d96061049a5b574269b049bf6241d63d46",
+ "clean_checkout": true,
+ "mmvq_cu_sha256": {
+  "selected": "f5dac9e161803399281be1a63757afb5847fc590969b4fc4daa3cca6289bd7b9",
+  "null_rebuild": "f5dac9e161803399281be1a63757afb5847fc590969b4fc4daa3cca6289bd7b9",
+  "force_mmq": "e07a47a5ebd0c4bdf63c18d65ca04783503ab5b52be036360a4a96216cd9dc01",
+  "cutoff7": "316cabf4b64d38ae9bdd0b13eeac7149ba488ca925d12907d361b860f2ec9708"
+ }
+}

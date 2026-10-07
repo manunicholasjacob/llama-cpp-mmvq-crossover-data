@@ -1,0 +1,22 @@
+--- a/ggml/src/ggml-cuda/mmvq.cu
++++ b/ggml/src/ggml-cuda/mmvq.cu
+@@ -298,6 +298,8 @@
+                 return ne11 <= 4;
+             case GGML_TYPE_Q3_K:
+                 return ne11 <= 6;
++            case GGML_TYPE_Q4_0:
++            case GGML_TYPE_Q8_0:
+             case GGML_TYPE_Q4_K:
+             case GGML_TYPE_Q5_K:
+                 return ne11 <= 7;
+@@ -368,6 +370,10 @@
+             default:
+                 return ne11 <= MMVQ_MAX_BATCH_SIZE;
+         }
++    }
++    if (GGML_CUDA_CC_IS_NVIDIA(cc) && cc == GGML_CUDA_CC_VOLTA &&
++            (type == GGML_TYPE_Q4_0 || type == GGML_TYPE_Q8_0)) {
++        return ne11 <= 7;
+     }
+     return ne11 <= MMVQ_MAX_BATCH_SIZE;
+ }

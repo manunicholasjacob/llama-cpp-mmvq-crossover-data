@@ -115,3 +115,14 @@ so the ne11 = 8 column is directly comparable with a `cutoff7 / selected` measur
 Data, tables and documentation: CC BY 4.0 (see `LICENSE`). Scripts under `code/`: MIT.
 Please cite as: Manu Nicholas Jacob, "MMVQ vs MMQ crossover data, five NVIDIA architectures", 2026,
 https://github.com/manunicholasjacob/llama-cpp-mmvq-crossover-data
+
+## October 2026 L4 re-runs (`runs/`)
+
+Same commit (b96806d96) and models, four binaries (`selected`, `force_mmq`, zhihz's `cutoff7`, `null_rebuild`),
+`llama-bench -ngl 999 -fa 1 -n 0 -embd 1 -t 4 -b 2048 -ub 512 -p 1..16 -r 30`, six rounds, Colab L4, driver 580.82.07.
+
+- `runs/l4-2026-10-07-unpinned-run1/`: clocks not locked. Under 8B load the 72 W L4 sits on `sw_power_cap`, and the
+  MMQ build ran at a higher mean SM clock than the MMVQ build (8B Q4_0: 1295 vs 1130 MHz).
+- `runs/l4-2026-10-07-pinned-810MHz/`: `nvidia-smi -lgc 810,810`. Every pin from 1395 to 900 MHz hit the power cap
+  under 8B load; at 810 the MMQ build holds the pin exactly and the MMVQ path stays at 91 to 97% of samples.
+  Summary in `out/SUMMARY.md`; telemetry is per llama-bench invocation.

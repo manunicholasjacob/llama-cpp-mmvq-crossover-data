@@ -1,0 +1,19 @@
+{
+ "session": "20261007T101351Z",
+ "gpu": "NVIDIA L4",
+ "compute_cap": "8.9",
+ "driver": "580.82.07",
+ "vram_mib": "23034",
+ "nvcc": "Build cuda_13.0.r13.0/compiler.36424714_0",
+ "nvcc_full": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Wed_Aug_20_01:58:59_PM_PDT_2025\nCuda compilation tools, release 13.0, V13.0.88\nBuild cuda_13.0.r13.0/compiler.36424714_0",
+ "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+ "nproc": 12,
+ "python": "3.13.15",
+ "when": "2026-10-07T10:13:51.590827+00:00",
+ "pin_commit": "b96806d96061049a5b574269b049bf6241d63d46",
+ "bench_flags": "-ngl 999 -fa 1 -n 0 -embd 1 -t 4 -b 2048 -ub 512",
+ "reps": 30,
+ "power_limit_w": 72.0,
+ "max_sm_mhz": 2040,
+ "max_mem_mhz": 6251
+}
