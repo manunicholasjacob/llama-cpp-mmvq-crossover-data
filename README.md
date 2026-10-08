@@ -126,3 +126,12 @@ Same commit (b96806d96) and models, four binaries (`selected`, `force_mmq`, zhih
 - `runs/l4-2026-10-07-pinned-810MHz/`: `nvidia-smi -lgc 810,810`. Every pin from 1395 to 900 MHz hit the power cap
   under 8B load; at 810 the MMQ build holds the pin exactly and the MMVQ path stays at 91 to 97% of samples.
   Summary in `out/SUMMARY.md`; telemetry is per llama-bench invocation.
+
+
+## October 2026 L20 at 810 MHz (zhihz)
+
+[`runs/l20-2026-10-07-pinned-810MHz/`](runs/l20-2026-10-07-pinned-810MHz/README.md) adds the complete requested L20 sweep (92 SMs, 144 invocations, 2,304 rows) with six byte-matched October model files, four builds, n=1..16 and six outer rounds. Both-GPU paired reductions and figures use the existing pinned L4 raw data. At n8, the L20 8B force_mmq ratios are 1.07116 (Q4_0) and 1.11463 (Q8_0); small-model outcomes are mixed.
+
+**These are exploratory stock-pool timings:** the independent exact-allocation MMQ diagnostic reported 385 errors, while the original selected/exact-pool and force_mmq/stock-pool controls passed. The run README preserves this limitation, achieved-clock scope and the remaining device confounders. This contribution does not establish a universal SM-count rule or source-code correctness acceptance.
+
+The original collected 515-file manifest is preserved inside the run; its `SHARE_SHA256SUMS` covers added documentation/code/figures as well. The repository-level `SHA256SUMS` is regenerated to cover the current checkout, including both October L4 runs and this L20 contribution.

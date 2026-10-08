@@ -1,0 +1,197 @@
+[1/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o
+[2/176] Building C object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o
+[3/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o
+[4/176] Building C object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o
+[5/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o
+[6/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o
+[7/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend-meta.cpp.o
+[8/176] Building CXX object llama/ggml/src/CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o
+[9/176] Building CXX object llama/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o
+[10/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o
+[11/176] Building C object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o
+[12/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o
+[13/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/iqp.cpp.o
+[14/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o
+[15/176] Building C object llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o
+[16/176] Linking CXX static library llama/ggml/src/libggml-base.a
+[17/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o
+[18/176] Building C object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o
+[19/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o
+[20/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o
+[21/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o
+[22/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o
+[23/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o
+[24/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o
+[25/176] Building C object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o
+[26/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o
+[27/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o
+[28/176] Building CXX object llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o
+[29/176] Linking CXX static library llama/ggml/src/libggml-cpu.a
+[30/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/acc.cu.o
+[31/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/add-id.cu.o
+[32/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/allreduce.cu.o
+[33/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/arange.cu.o
+[34/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/argmax.cu.o
+[35/176] Building CXX object CMakeFiles/dense-gate.dir/dense_gate.cpp.o
+[36/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/clamp.cu.o
+[37/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/col2im-1d.cu.o
+[38/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv-transpose-1d.cu.o
+[39/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/concat.cu.o
+[40/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d-dw.cu.o
+[41/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d-transpose.cu.o
+[42/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d.cu.o
+[43/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/count-equal.cu.o
+[44/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/convert.cu.o
+[45/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/cross-entropy-loss.cu.o
+[46/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/binbcast.cu.o
+[47/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/cpy.cu.o
+[48/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/diag.cu.o
+[49/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/diagmask.cu.o
+[50/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fattn-tile.cu.o
+[51/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/dsv4-hc.cu.o
+[52/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/argsort.cu.o
+[53/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/cumsum.cu.o
+[54/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fill.cu.o
+[55/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fwht.cu.o
+[56/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/gated_delta_net.cu.o
+[57/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/gla.cu.o
+[58/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/ggml-cuda.cu.o
+In static member function ‘static _Tp* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(const _Tp*, const _Tp*, _Tp*) [with _Tp = ggml_op; bool _IsMove = false]’,
+    inlined from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const ggml_op*; _OI = ggml_op*]’ at /usr/include/c++/11/bits/stl_algobase.h:494:141,
+    inlined from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const ggml_op*; _OI = ggml_op*]’ at /usr/include/c++/11/bits/stl_algobase.h:522:40,
+    inlined from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const ggml_op*; _OI = ggml_op*]’ at /usr/include/c++/11/bits/stl_algobase.h:529:25,
+    inlined from ‘_OI std::copy(_II, _II, _OI) [with _II = const ggml_op*; _OI = ggml_op*]’ at /usr/include/c++/11/bits/stl_algobase.h:619:64,
+    inlined from ‘static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const ggml_op*; _ForwardIterator = ggml_op*]’ at /usr/include/c++/11/bits/stl_uninitialized.h:110:19,
+    inlined from ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const ggml_op*; _ForwardIterator = ggml_op*]’ at /usr/include/c++/11/bits/stl_uninitialized.h:148:131,
+    inlined from ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = const ggml_op*; _ForwardIterator = ggml_op*; _Tp = ggml_op]’ at /usr/include/c++/11/bits/stl_uninitialized.h:333:33,
+    inlined from ‘void std::vector<_Tp, _Alloc>::_M_range_insert(std::vector<_Tp, _Alloc>::iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const ggml_op*; _Tp = ggml_op; _Alloc = std::allocator<ggml_op>]’ at /usr/include/c++/11/bits/vector.tcc:751:28,
+    inlined from ‘std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::initializer_list<_Tp>) [with _Tp = ggml_op; _Alloc = std::allocator<ggml_op>]’ at /usr/include/c++/11/bits/stl_vector.h:1313:16,
+    inlined from ‘int ggml_cuda_try_fuse(ggml_backend_cuda_context*, ggml_cgraph*, int)’ at /root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/src/ggml/src/ggml-cuda/ggml-cuda.cu:3512:11:
+/usr/include/c++/11/bits/stl_algobase.h:431:25: warning: ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’ writing 20 bytes into a region of size 4 overflows the destination [-Wstringop-overflow=]
+  431 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11/ext/new_allocator.h: In function ‘int ggml_cuda_try_fuse(ggml_backend_cuda_context*, ggml_cgraph*, int)’:
+/usr/include/c++/11/ext/new_allocator.h:127:49: note: at offset [24, 28] into destination object of size [24, 28] allocated by ‘operator new’
+  127 |         return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp)));
+      |                                   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11/ext/new_allocator.h:127:49: note: at offset [20, 24] into destination object of size [20, 24] allocated by ‘operator new’
+  127 |         return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp)));
+      |                                   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+[59/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/getrows.cu.o
+[60/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/im2col.cu.o
+[61/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmf.cu.o
+[62/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/lightning-indexer.cu.o
+[63/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fattn.cu.o
+[64/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmid.cu.o
+[65/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mean.cu.o
+[66/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/moe-weighted-reduction.cu.o
+[67/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmq.cu.o
+[68/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/norm.cu.o
+[69/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/opt-step-adamw.cu.o
+[70/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/opt-step-sgd.cu.o
+[71/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/out-prod.cu.o
+[72/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pad_reflect_1d.cu.o
+[73/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pad.cu.o
+[74/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pool1d.cu.o
+[75/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pool2d.cu.o
+[76/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/roll.cu.o
+[77/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/quantize.cu.o
+[78/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/scale.cu.o
+[79/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/rope.cu.o
+[80/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/set-rows.cu.o
+[81/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/set.cu.o
+[82/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/snake.cu.o
+[83/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/softcap.cu.o
+[84/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmvf.cu.o
+[85/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/softmax.cu.o
+[86/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/solve_tri.cu.o
+[87/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/ssm-conv.cu.o
+[88/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/sumrows.cu.o
+[89/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/sum.cu.o
+[90/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/ssm-scan.cu.o
+[91/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmvq.cu.o
+[92/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/top-k.cu.o
+[93/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/tri.cu.o
+[94/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/tsembd.cu.o
+[95/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/topk-moe.cu.o
+[96/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/upscale.cu.o
+[97/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/unary.cu.o
+[98/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/wkv.cu.o
+[99/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq192-dv128.cu.o
+[100/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq112-dv112.cu.o
+[101/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq320-dv256.cu.o
+[102/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq128-dv128.cu.o
+[103/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq40-dv40.cu.o
+[104/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq64-dv64.cu.o
+[105/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq576-dv512.cu.o
+[106/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq512-dv512.cu.o
+[107/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq256-dv256.cu.o
+[108/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_16.cu.o
+[109/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq72-dv72.cu.o
+[110/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq80-dv80.cu.o
+[111/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq96-dv96.cu.o
+[112/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_32.cu.o
+[113/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_8.cu.o
+[114/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_2.cu.o
+[115/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_1.cu.o
+[116/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_16.cu.o
+[117/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_32.cu.o
+[118/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_4.cu.o
+[119/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_4.cu.o
+[120/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_8.cu.o
+[121/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_16.cu.o
+[122/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_1.cu.o
+[123/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_2.cu.o
+[124/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_2.cu.o
+[125/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_4.cu.o
+[126/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_8.cu.o
+[127/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_64-ncols2_1.cu.o
+[128/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_1.cu.o
+[129/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_2.cu.o
+[130/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_4.cu.o
+[131/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_8.cu.o
+[132/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq1_s.cu.o
+[133/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_s.cu.o
+[134/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xs.cu.o
+[135/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o
+[136/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o
+[137/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o
+[138/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o
+[139/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_xs.cu.o
+[140/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-mxfp4.cu.o
+[141/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q1_0.cu.o
+[142/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-nvfp4.cu.o
+[143/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_0.cu.o
+[144/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_0.cu.o
+[145/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q3_k.cu.o
+[146/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_k.cu.o
+[147/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_1.cu.o
+[148/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_k.cu.o
+[149/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_0.cu.o
+[150/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_1.cu.o
+[151/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_k.cu.o
+[152/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_1.cu.o
+[153/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_10.cu.o
+[154/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q8_0.cu.o
+[155/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q6_k.cu.o
+[156/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_11.cu.o
+[157/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_12.cu.o
+[158/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_13.cu.o
+[159/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_14.cu.o
+[160/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_15.cu.o
+[161/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_16.cu.o
+[162/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_2.cu.o
+[163/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_3.cu.o
+[164/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_4.cu.o
+[165/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_5.cu.o
+[166/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_6.cu.o
+[167/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_7.cu.o
+[168/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_8.cu.o
+[169/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-f16-f16.cu.o
+[170/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_9.cu.o
+[171/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-bf16-bf16.cu.o
+[172/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-q8_0-q8_0.cu.o
+[173/176] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-q4_0-q4_0.cu.o
+[174/176] Linking CXX static library llama/ggml/src/ggml-cuda/libggml-cuda.a
+[175/176] Linking CXX static library llama/ggml/src/libggml.a
+[176/176] Linking CXX executable bin/dense-gate

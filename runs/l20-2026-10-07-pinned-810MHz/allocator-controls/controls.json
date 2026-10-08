@@ -1,0 +1,76 @@
+{
+  "status": "PASSED",
+  "build_sha256": "58cb0a205cdf76369763a0ea6801073f951318a42f41aa5dd8e726690e3416b1",
+  "harness_sha256": "10b101ab5722012af5e4bdac2ca428d3ad9fafd429ea6352e6f1761f0004e0cf",
+  "original_diagnostic_gate": {
+    "folder": "gates/1791386629982874061",
+    "status": "FAILED",
+    "device": {
+      "name": "NVIDIA L20",
+      "cc": "8.9",
+      "sm_count": 92,
+      "memory_bytes": 47665709056,
+      "l2_bytes": 100663296,
+      "memory_bus_bits": 384
+    },
+    "build_sha256": "58cb0a205cdf76369763a0ea6801073f951318a42f41aa5dd8e726690e3416b1",
+    "harness_sha256": "10b101ab5722012af5e4bdac2ca428d3ad9fafd429ea6352e6f1761f0004e0cf",
+    "expected_cases_per_command": 168,
+    "coverage": "Q4_0/Q8_0 n2..8, 12 attention/FFN geometries; excludes output head and full-model correctness",
+    "commands": [
+      {
+        "world": "selected",
+        "command": [
+          "/root/issue28090/l20-810-bundle/work/selected/build/bin/dense-gate"
+        ],
+        "log": "selected.log"
+      },
+      {
+        "world": "force_mmq",
+        "command": [
+          "/root/issue28090/l20-810-bundle/work/force_mmq/build/bin/dense-gate"
+        ],
+        "log": "force_mmq.log"
+      },
+      {
+        "world": "cutoff7",
+        "command": [
+          "/root/issue28090/l20-810-bundle/work/cutoff7/build/bin/dense-gate"
+        ],
+        "log": "cutoff7.log"
+      },
+      {
+        "world": "force_mmq_exact_pool",
+        "command": [
+          "compute-sanitizer",
+          "--tool",
+          "memcheck",
+          "--error-exitcode",
+          "99",
+          "--target-processes",
+          "all",
+          "/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate"
+        ],
+        "log": "force_mmq_exact_pool.log"
+      }
+    ],
+    "error": "Command '['compute-sanitizer', '--tool', 'memcheck', '--error-exitcode', '99', '--target-processes', 'all', '/root/issue28090/l20-810-bundle/work/force_mmq_exact_pool/build/bin/dense-gate']' returned non-zero exit status 99."
+  },
+  "controls": {
+    "selected_exact_pool": {
+      "status": "PASSED",
+      "exit_code": 0,
+      "binary_sha256": "1cb3e80dccc6e313e9b84d03d6c1797b1404b8b4733a76f5526e90bd9c74a1b3",
+      "log_sha256": "e1d660d664bc585fa297e50f994c42d5bf943e0bd5324e8176df508abb852df8",
+      "log": "selected-exact-pool.memcheck.log"
+    },
+    "force_mmq_stock_pool": {
+      "status": "PASSED",
+      "exit_code": 0,
+      "binary_sha256": "7ed55e2dffb218201558aa3600e8a8b3a24eaecef7aea8cfeb93041729166acc",
+      "log_sha256": "2ed7d9d73bf73807bb9daf3386d806edf7e7267a75fbe203e77de55a462481ac",
+      "log": "force_mmq-stock-pool.memcheck.log"
+    }
+  },
+  "original_diagnostic_source_and_binary_restored": true
+}

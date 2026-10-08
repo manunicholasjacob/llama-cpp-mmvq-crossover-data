@@ -1,0 +1,3 @@
+[1/3] Building CUDA object llama/ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmvq.cu.o
+[2/3] Linking CXX static library llama/ggml/src/ggml-cuda/libggml-cuda.a
+[3/3] Linking CXX executable bin/dense-gate

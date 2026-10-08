@@ -1,0 +1,2306 @@
+[
+  {
+    "file": "1b-Q4_0-r0-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 22,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 116.12681818181818,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r0-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 25,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 111.7624,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r0-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 118.4104347826087,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r0-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 116.50173913043479,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r1-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 118.30217391304348,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r1-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 27,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 112.14708333333333,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r1-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 117.51739130434783,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r1-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 119.83043478260869,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r2-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 115.12434782608696,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r2-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 111.555,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r2-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 21,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 119.13285714285715,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r2-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 22,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 118.83818181818182,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r3-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 114.95913043478261,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r3-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 27,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 113.51958333333333,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r3-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 120.92565217391304,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r3-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 119.02333333333333,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r4-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 22,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 115.10727272727273,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r4-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 27,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 111.7975,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r4-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 116.59249999999999,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r4-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 119.71869565217392,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r5-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 26,
+    "busy_samples": 23,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 114.77260869565217,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r5-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 27,
+    "busy_samples": 25,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 110.31360000000001,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r5-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 22,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 113.56863636363636,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q4_0-r5-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 25,
+    "busy_samples": 22,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 117.44727272727273,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r0-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 25,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 133.166,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r0-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 31,
+    "busy_samples": 28,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 122.3875,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r0-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 133.84692307692308,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r0-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 131.72346153846155,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r1-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 130.39291666666665,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r1-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 30,
+    "busy_samples": 27,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 124.14222222222223,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r1-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 134.05653846153845,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r1-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 130.95307692307694,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r2-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 130.71269230769232,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r2-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 30,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 123.27153846153846,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r2-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 134.28384615384616,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r2-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 25,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.32319999999999,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r3-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 27,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 128.72407407407408,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r3-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 30,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 122.57038461538461,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r3-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 131.0903846153846,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r3-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 128.2453846153846,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r4-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 27,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 127.79111111111112,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r4-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 30,
+    "busy_samples": 27,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 121.43148148148148,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r4-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 135.76333333333335,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r4-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 131.1773076923077,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r5-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 24,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 133.12666666666667,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r5-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 30,
+    "busy_samples": 27,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 125.21888888888888,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r5-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 29,
+    "busy_samples": 27,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 131.38703703703703,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "1b-Q8_0-r5-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 28,
+    "busy_samples": 26,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 132.23576923076922,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r0-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.2671111111111,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r0-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 52,
+    "busy_samples": 50,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 127.47200000000001,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r0-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.10977777777777,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r0-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 43,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 138.8818604651163,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r1-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 135.98888888888888,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r1-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 51,
+    "busy_samples": 49,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 127.62285714285716,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r1-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 137.11704545454543,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r1-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.4847727272727,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r2-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 46,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 134.98954545454546,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r2-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 52,
+    "busy_samples": 49,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 127.18530612244898,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r2-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.7534090909091,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r2-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.87733333333333,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r3-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 135.42545454545456,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r3-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 52,
+    "busy_samples": 49,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 128.23897959183674,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r3-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 43,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 137.82883720930232,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r3-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.9734090909091,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r4-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 44,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 134.36727272727273,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r4-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 52,
+    "busy_samples": 50,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 126.71860000000001,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r4-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 137.04244444444444,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r4-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 43,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 137.06790697674418,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r5-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 134.00066666666666,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r5-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 51,
+    "busy_samples": 49,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 127.6869387755102,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r5-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 43,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.486511627907,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q4_0-r5-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 47,
+    "busy_samples": 45,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 136.04444444444445,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r0-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 51,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 148.22627450980391,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r0-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 59,
+    "busy_samples": 57,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 140.03666666666666,
+    "temperature_max": 39.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r0-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 150.18192307692308,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r0-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.48096153846154,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r1-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 54,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 148.05,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r1-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 59,
+    "busy_samples": 56,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 140.19482142857143,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r1-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.70846153846153,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r1-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 51,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.4492156862745,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r2-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 150.3476923076923,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r2-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 59,
+    "busy_samples": 55,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 140.92963636363638,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r2-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.24942307692308,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r2-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.78173076923076,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r3-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 54,
+    "busy_samples": 51,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 148.56058823529412,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r3-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 59,
+    "busy_samples": 56,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 140.22214285714284,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r3-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 150.0228846153846,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r3-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 54,
+    "busy_samples": 51,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.47098039215686,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r4-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 56,
+    "busy_samples": 53,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 149.62377358490568,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r4-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 59,
+    "busy_samples": 56,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 140.00732142857143,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r4-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 51,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 152.3621568627451,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r4-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 150.3167307692308,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r5-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 54,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 148.55115384615385,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r5-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 59,
+    "busy_samples": 56,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 140.49482142857144,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r5-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.5346153846154,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "3b-Q8_0-r5-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 55,
+    "busy_samples": 52,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.81634615384615,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r0-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 77,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 160.07108108108108,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r0-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 85,
+    "busy_samples": 81,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 152.67024691358026,
+    "temperature_max": 38.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r0-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 161.62675675675675,
+    "temperature_max": 41.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r0-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 79,
+    "busy_samples": 76,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 160.1196052631579,
+    "temperature_max": 37.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r1-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 159.40702702702703,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r1-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 86,
+    "busy_samples": 83,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 151.31228915662652,
+    "temperature_max": 40.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r1-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 79,
+    "busy_samples": 75,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 161.90853333333334,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r1-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 162.7377027027027,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r2-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 160.58445945945945,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r2-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 85,
+    "busy_samples": 81,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 152.66358024691357,
+    "temperature_max": 42.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r2-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 79,
+    "busy_samples": 75,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 162.84773333333334,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r2-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 77,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 161.96363636363637,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r3-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 162.6127027027027,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r3-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 85,
+    "busy_samples": 82,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 153.85439024390243,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r3-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 164.71202702702703,
+    "temperature_max": 44.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r3-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 162.98108108108107,
+    "temperature_max": 44.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r4-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 161.3189189189189,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r4-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 85,
+    "busy_samples": 82,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 154.05609756097562,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r4-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 164.50243243243244,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r4-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 79,
+    "busy_samples": 76,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 163.52539473684212,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r5-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 78,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 162.6141891891892,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r5-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 84,
+    "busy_samples": 81,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 153.88716049382717,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r5-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 77,
+    "busy_samples": 74,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 164.3731081081081,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q4_0-r5-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 79,
+    "busy_samples": 76,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 163.64894736842106,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r0-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 90,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 177.33855555555556,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r0-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 101,
+    "busy_samples": 96,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 165.30166666666668,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r0-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 91,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 176.30395604395605,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r0-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 90,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 176.61311111111112,
+    "temperature_max": 45.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r1-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 94,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 173.75,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r1-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 101,
+    "busy_samples": 97,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 166.57577319587628,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r1-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 91,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 177.00010989010988,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r1-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 178.82157303370786,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r2-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 175.77853932584267,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r2-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 101,
+    "busy_samples": 94,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 168.51882978723404,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r2-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 92,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 177.9445652173913,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r2-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 90,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 180.48988888888888,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r3-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 176.31078651685394,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r3-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 100,
+    "busy_samples": 93,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 167.29064516129034,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r3-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 179.02101123595506,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r3-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 90,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 178.53411111111112,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r4-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 88,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 177.99397727272728,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r4-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 101,
+    "busy_samples": 95,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 167.62547368421053,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r4-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 181.36247191011236,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r4-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 178.88078651685393,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r5-cutoff7.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 95,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 177.01213483146068,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r5-force_mmq.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 101,
+    "busy_samples": 95,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 167.52905263157896,
+    "temperature_max": 43.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r5-null_rebuild.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 89,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 181.75022471910114,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  },
+  {
+    "file": "8b-Q8_0-r5-selected.jsonl",
+    "scope": "invocation-wide busy samples, includes model load and all n",
+    "samples": 96,
+    "busy_samples": 91,
+    "sm_mean": 810.0,
+    "sm_min": 810.0,
+    "sm_max": 810.0,
+    "sm_810_fraction": 1.0,
+    "memory_mean": 9001.0,
+    "power_mean": 177.65472527472528,
+    "temperature_max": 46.0,
+    "reason_bitmasks": [
+      "0x0000000000000000"
+    ]
+  }
+]

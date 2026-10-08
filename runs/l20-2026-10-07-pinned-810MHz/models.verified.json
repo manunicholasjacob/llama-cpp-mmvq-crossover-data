@@ -1,0 +1,26 @@
+{
+  "llama3.2-1b-pure-q4_0.gguf": {
+    "sha256": "e1133ad66ab93ebcc3d318bdbd6e4a3ba1f5f21cd0eed6e71618fd24b5dfd6e2",
+    "bytes": 703209120
+  },
+  "llama3.2-1b-pure-q8_0.gguf": {
+    "sha256": "0998a00fb620982babd272d5bb882a4fb4cf529da5099a8cacea606c1de9d778",
+    "bytes": 1321082528
+  },
+  "llama3.2-3b-pure-q4_0.gguf": {
+    "sha256": "44e82adc508b2c75882ac871d1637b194cacd5d95a1497d93046980f559c2f05",
+    "bytes": 1815611456
+  },
+  "llama3.2-3b-pure-q8_0.gguf": {
+    "sha256": "10f5a6adfed0f3deb720b5932d5aab4fe211bb7c10331d671448bc843f453801",
+    "bytes": 3421898816
+  },
+  "llama3.1-8b-pure-q4_0.gguf": {
+    "sha256": "091a4dce9d0760cb507eba592c853b41ab8ee07f4fbbb88cf05f7db0d2fcdc39",
+    "bytes": 4525778048
+  },
+  "llama3.1-8b-pure-q8_0.gguf": {
+    "sha256": "b4c96591baf9544a7df6a86675f86c9ee11f1dd3ea4fb8ee2327f46cd0fe02be",
+    "bytes": 8540775552
+  }
+}

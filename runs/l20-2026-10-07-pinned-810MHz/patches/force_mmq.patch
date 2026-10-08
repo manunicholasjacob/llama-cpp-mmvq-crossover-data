@@ -1,0 +1,14 @@
+--- a/ggml/src/ggml-cuda/mmvq.cu
++++ b/ggml/src/ggml-cuda/mmvq.cu
+@@ -287,6 +287,11 @@
+ }
+ 
+ bool ggml_cuda_should_use_mmvq(enum ggml_type type, int cc, int64_t ne11) {
++    // October matched L20 experiment: dense legacy types only.
++    if (cc == GGML_CUDA_CC_ADA_LOVELACE &&
++        (type == GGML_TYPE_Q4_0 || type == GGML_TYPE_Q8_0)) {
++        return ne11 <= 1;
++    }
+     if (!ggml_is_quantized(type)) {
+         return false;
+     }
