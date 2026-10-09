@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_SWEEP_REQUIRES_REVIEW",
+  "device": {
+    "name": "NVIDIA L20",
+    "cc": "8.9",
+    "sm_count": 92,
+    "memory_bytes": 47665709056,
+    "l2_bytes": 100663296,
+    "memory_bus_bits": 384
+  },
+  "invocations": 246,
+  "source": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+  "expected_invocations": 246,
+  "decision": "CURVE_READY_FOR_REVIEW",
+  "clock_reset_returncode": 0
+}

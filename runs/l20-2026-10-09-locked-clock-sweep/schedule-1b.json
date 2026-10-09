@@ -1,0 +1,650 @@
+[
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 0,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 1,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 2,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 3,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 4,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 2100,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 1200,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "small_model",
+    "round": 5,
+    "clock": 1500,
+    "model": "1b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  }
+]

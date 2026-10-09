@@ -144,3 +144,10 @@ The original collected 515-file manifest is preserved inside the run; its `SHARE
 At n=8, cutoff7 / selected throughput changes were **+17.92% (8B Q4_0) and +11.30% (8B Q8_0) at 810 MHz**, versus **−17.82% and −11.20% at measured default clocks**. The fixed exact-allocation diagnostic had zero memcheck errors and passed 168/168 numerical cases; its pre-fix control reproduced invalid reads and aborted. The run documents the explicit admission amendment, preserves the original failed gate, and includes a CPU-only independent reviewer and checksums.
 
 This supports a focused clock-aware investigation while keeping the static table unchanged. It is not full-model correctness acceptance or a portable selection rule, and does not replace the historical b968 data. See the run README for measured default frequencies, workload controls, metadata redactions and provenance.
+
+
+## October 2026 L20 locked-clock follow-up (zhihz)
+
+[`runs/l20-2026-10-09-locked-clock-sweep/`](runs/l20-2026-10-09-locked-clock-sweep/README.md) adds the `fc9ce6b9` sweep: 246 formal invocations / 258 rows, six outer rounds, valid locks at 1200/1500/1800/2100 MHz. At n=8, 8B Q4_0 changes from +5.60% at 1200 MHz to -5.25% at 1500 MHz; 8B Q8_0 is already -6.98% at 1200 MHz. The requested 2520 MHz point failed sustained lock acceptance and is excluded, with all evidence retained.
+
+The run includes raw outputs, telemetry, source/build provenance, complete paired reductions and a CPU-only independent reviewer. The prior 810 MHz point and safety gate are not repeated or pooled. These results narrow the next investigation to quantization-specific frequency intervals and matrix-shape controls; they do not establish a portable default routing rule.
