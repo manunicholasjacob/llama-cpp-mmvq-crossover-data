@@ -1,0 +1,14 @@
+{
+  "round": 3,
+  "clock": "default",
+  "model": "8b",
+  "quant": "Q4_0",
+  "world": "cutoff7",
+  "position": 1,
+  "ns": [
+    1,
+    16
+  ],
+  "start": 1791517349.142193,
+  "end": 1791517352.0958245
+}

@@ -1,0 +1,23 @@
+{
+  "fixed_commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+  "parent_commit": "c35b66744f13cb0dcc476af063e112122eee9355",
+  "changed_files": [
+    "ggml/src/ggml-cuda/mmq.cu",
+    "ggml/src/ggml-cuda/mmq.cuh"
+  ],
+  "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+  "source_archive_sha256": "733a52df76205ced1285801a32121d35b9d0a2c16db386034bd134f1689391a5",
+  "parent_reconstruction": "Only mmq.cu and mmq.cuh differ in this commit; restore parent blobs for positive-control source.",
+  "parent_blobs": {
+    "mmq.cu": {
+      "url": "https://api.github.com/repos/ggml-org/llama.cpp/contents/ggml/src/ggml-cuda/mmq.cu?ref=c35b66744f13cb0dcc476af063e112122eee9355",
+      "sha256": "94111d3fbebfe82f8d36b1cf07471c477ba8d9bd287bfd7934ce97a13004bdbd",
+      "git_blob_sha1": "43603bb8a7ae74388479714bd1feb69a121a8714"
+    },
+    "mmq.cuh": {
+      "url": "https://api.github.com/repos/ggml-org/llama.cpp/contents/ggml/src/ggml-cuda/mmq.cuh?ref=c35b66744f13cb0dcc476af063e112122eee9355",
+      "sha256": "bc79d7cd87b6d8914ba11ee7da98bd3173687fb9a693ed6fbde3561064904169",
+      "git_blob_sha1": "0cd31d91648a6f4d1158cf3bccb0a2264e26c131"
+    }
+  }
+}

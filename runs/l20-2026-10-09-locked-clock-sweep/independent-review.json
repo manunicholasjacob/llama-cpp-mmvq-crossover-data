@@ -1,0 +1,390 @@
+{
+  "archive_sha256": "a51308ea402dcab30f8d9fcf6067b1a64e62578b6144621e937be20a3e24e9a8",
+  "sealed_hashes_verified": 1064,
+  "source_patch_and_recorded_model_hashes_verified": true,
+  "invocations_verified": 246,
+  "rows_verified": 258,
+  "inner_samples_verified": 25800,
+  "valid_mhz": [
+    1200,
+    1500,
+    1800,
+    2100
+  ],
+  "recomputed_cells": [
+    {
+      "phase": "primary",
+      "clock": 1200,
+      "model": "8b",
+      "quant": "Q4_0",
+      "ratio": 1.055997108589494,
+      "ci95_low": 1.0559288668370261,
+      "ci95_high": 1.0560903467737257,
+      "wins": 6,
+      "losses": 0,
+      "pilot_null_floor": 3.475801940955314e-05
+    },
+    {
+      "phase": "primary",
+      "clock": 1200,
+      "model": "8b",
+      "quant": "Q8_0",
+      "ratio": 0.930225843182023,
+      "ci95_low": 0.9300973414101344,
+      "ci95_high": 0.9303720413859792,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.00012696708801440693
+    },
+    {
+      "phase": "primary",
+      "clock": 1500,
+      "model": "8b",
+      "quant": "Q4_0",
+      "ratio": 0.947521542214678,
+      "ci95_low": 0.9473508771936197,
+      "ci95_high": 0.9477273689543443,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 9.231232624928865e-05
+    },
+    {
+      "phase": "primary",
+      "clock": 1500,
+      "model": "8b",
+      "quant": "Q8_0",
+      "ratio": 0.8981133043359032,
+      "ci95_low": 0.8979854515325029,
+      "ci95_high": 0.898220121846897,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.0001006380723848066
+    },
+    {
+      "phase": "primary",
+      "clock": 1800,
+      "model": "8b",
+      "quant": "Q4_0",
+      "ratio": 0.8642979919985609,
+      "ci95_low": 0.8641471885288815,
+      "ci95_high": 0.8644114194178887,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 5.603350210292568e-05
+    },
+    {
+      "phase": "primary",
+      "clock": 1800,
+      "model": "8b",
+      "quant": "Q8_0",
+      "ratio": 0.8845802689270019,
+      "ci95_low": 0.8844142442437402,
+      "ci95_high": 0.8847355123661469,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 1.9472337392967276e-05
+    },
+    {
+      "phase": "primary",
+      "clock": 2100,
+      "model": "8b",
+      "quant": "Q4_0",
+      "ratio": 0.8337525199425553,
+      "ci95_low": 0.833533048564598,
+      "ci95_high": 0.8339941440429287,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 2.1983662525482117e-05
+    },
+    {
+      "phase": "primary",
+      "clock": 2100,
+      "model": "8b",
+      "quant": "Q8_0",
+      "ratio": 0.8831531590574917,
+      "ci95_low": 0.8830707926690771,
+      "ci95_high": 0.8832484782988772,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 2.2624488753120175e-05
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "model": "8b",
+      "quant": "Q4_0",
+      "ratio": 0.8162835288909528,
+      "ci95_low": 0.8160876998603123,
+      "ci95_high": 0.8166066371628428,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.00023959043114651912
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "model": "8b",
+      "quant": "Q8_0",
+      "ratio": 0.8878152285851219,
+      "ci95_low": 0.8876822287212823,
+      "ci95_high": 0.8879619504294685,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.0001643824037950159
+    },
+    {
+      "phase": "small_model",
+      "clock": 1200,
+      "model": "1b",
+      "quant": "Q8_0",
+      "ratio": 0.8897705772698002,
+      "ci95_low": 0.8896038719265871,
+      "ci95_high": 0.8899340372317891,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.00016855731614073832
+    },
+    {
+      "phase": "small_model",
+      "clock": 1500,
+      "model": "1b",
+      "quant": "Q8_0",
+      "ratio": 0.8470234658911184,
+      "ci95_low": 0.8466306405078283,
+      "ci95_high": 0.8474315194944463,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.0005051978043921768
+    },
+    {
+      "phase": "small_model",
+      "clock": 2100,
+      "model": "1b",
+      "quant": "Q8_0",
+      "ratio": 0.8347977206247936,
+      "ci95_low": 0.8345036016398552,
+      "ci95_high": 0.8351056340485133,
+      "wins": 0,
+      "losses": 6,
+      "pilot_null_floor": 0.0002728112070882194
+    }
+  ],
+  "route_control_worst": 0.000527817970822575,
+  "failed_lock_windows": [
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 0,
+      "world": "selected",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 12,
+      "temperature_max": 59.0,
+      "start": 1791541349.090678,
+      "end": 1791541351.0360909
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 0,
+      "world": "null_rebuild",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 12,
+      "temperature_max": 59.0,
+      "start": 1791541353.1815486,
+      "end": 1791541355.1281843
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 1,
+      "world": "null_rebuild",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 12,
+      "temperature_max": 60.0,
+      "start": 1791541453.9417899,
+      "end": 1791541455.8876555
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 1,
+      "world": "selected",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 17,
+      "temperature_max": 60.0,
+      "start": 1791541455.8885744,
+      "end": 1791541457.831368
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 2,
+      "world": "null_rebuild",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 14,
+      "temperature_max": 59.0,
+      "start": 1791541515.2868822,
+      "end": 1791541517.2353318
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 2,
+      "world": "selected",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 15,
+      "temperature_max": 59.0,
+      "start": 1791541517.2361917,
+      "end": 1791541519.179261
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 3,
+      "world": "selected",
+      "held": false,
+      "sm_min": 2475.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 12,
+      "temperature_max": 61.0,
+      "start": 1791541597.8116105,
+      "end": 1791541599.756059
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 3,
+      "world": "null_rebuild",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 12,
+      "temperature_max": 61.0,
+      "start": 1791541601.9016874,
+      "end": 1791541603.8433192
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 4,
+      "world": "null_rebuild",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 15,
+      "temperature_max": 59.0,
+      "start": 1791541664.3817945,
+      "end": 1791541666.327608
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 4,
+      "world": "selected",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 14,
+      "temperature_max": 60.0,
+      "start": 1791541666.3284948,
+      "end": 1791541668.225255
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 5,
+      "world": "null_rebuild",
+      "held": false,
+      "sm_min": 2475.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 17,
+      "temperature_max": 60.0,
+      "start": 1791541836.378842,
+      "end": 1791541838.3274574
+    },
+    {
+      "phase": "primary",
+      "clock": 2520,
+      "quant": "Q4_0",
+      "round": 5,
+      "world": "selected",
+      "held": false,
+      "sm_min": 2490.0,
+      "sm_max": 2520.0,
+      "memory_clocks": [
+        9001.0
+      ],
+      "busy_samples": 12,
+      "temperature_max": 60.0,
+      "start": 1791541838.3283684,
+      "end": 1791541840.275218
+    }
+  ],
+  "max_temperature_c": 61.0,
+  "memory_clocks": [
+    9001.0
+  ],
+  "minimum_busy_samples": 3,
+  "timing_span_minutes": 11.569292322794597,
+  "notes": [
+    "810 MHz and sanitizer were not repeated in this archive.",
+    "Model payloads and executable binaries are not included; their recorded hashes were checked.",
+    "No per-operator timing, intermediate boundary frequencies, or held-out routing validation."
+  ]
+}

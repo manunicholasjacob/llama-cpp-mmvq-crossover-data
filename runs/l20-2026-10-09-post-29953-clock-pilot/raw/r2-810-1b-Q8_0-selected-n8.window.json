@@ -1,0 +1,13 @@
+{
+  "round": 2,
+  "clock": "810",
+  "model": "1b",
+  "quant": "Q8_0",
+  "world": "selected",
+  "position": 1,
+  "ns": [
+    8
+  ],
+  "start": 1791517240.710134,
+  "end": 1791517242.1790142
+}

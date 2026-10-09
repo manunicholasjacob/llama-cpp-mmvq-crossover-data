@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "mhz": 1200,
+      "accepted": true,
+      "worlds": [
+        {
+          "busy_samples": 12,
+          "sm_mean": 1200.0,
+          "sm_min": 1200.0,
+          "sm_max": 1200.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 39.0,
+          "world": "selected",
+          "avg_ts": 604.27106
+        },
+        {
+          "busy_samples": 11,
+          "sm_mean": 1200.0,
+          "sm_min": 1200.0,
+          "sm_max": 1200.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 37.0,
+          "world": "cutoff7",
+          "avg_ts": 638.71344
+        }
+      ]
+    },
+    {
+      "mhz": 1500,
+      "accepted": true,
+      "worlds": [
+        {
+          "busy_samples": 9,
+          "sm_mean": 1500.0,
+          "sm_min": 1500.0,
+          "sm_max": 1500.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 41.0,
+          "world": "selected",
+          "avg_ts": 738.240166
+        },
+        {
+          "busy_samples": 11,
+          "sm_mean": 1500.0,
+          "sm_min": 1500.0,
+          "sm_max": 1500.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 38.0,
+          "world": "cutoff7",
+          "avg_ts": 699.414886
+        }
+      ]
+    },
+    {
+      "mhz": 1800,
+      "accepted": true,
+      "worlds": [
+        {
+          "busy_samples": 7,
+          "sm_mean": 1800.0,
+          "sm_min": 1800.0,
+          "sm_max": 1800.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 42.0,
+          "world": "selected",
+          "avg_ts": 855.627882
+        },
+        {
+          "busy_samples": 10,
+          "sm_mean": 1800.0,
+          "sm_min": 1800.0,
+          "sm_max": 1800.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 39.0,
+          "world": "cutoff7",
+          "avg_ts": 738.910518
+        }
+      ]
+    },
+    {
+      "mhz": 2100,
+      "accepted": true,
+      "worlds": [
+        {
+          "busy_samples": 7,
+          "sm_mean": 2100.0,
+          "sm_min": 2100.0,
+          "sm_max": 2100.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 43.0,
+          "world": "selected",
+          "avg_ts": 931.274751
+        },
+        {
+          "busy_samples": 7,
+          "sm_mean": 2100.0,
+          "sm_min": 2100.0,
+          "sm_max": 2100.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 39.0,
+          "world": "cutoff7",
+          "avg_ts": 775.23065
+        }
+      ]
+    },
+    {
+      "mhz": 2520,
+      "accepted": true,
+      "worlds": [
+        {
+          "busy_samples": 6,
+          "sm_mean": 2520.0,
+          "sm_min": 2520.0,
+          "sm_max": 2520.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 46.0,
+          "world": "selected",
+          "avg_ts": 997.597084
+        },
+        {
+          "busy_samples": 10,
+          "sm_mean": 2520.0,
+          "sm_min": 2520.0,
+          "sm_max": 2520.0,
+          "mem_mean": 9001.0,
+          "held": true,
+          "temperature_max": 41.0,
+          "world": "cutoff7",
+          "avg_ts": 812.138492
+        }
+      ]
+    }
+  ],
+  "accepted_mhz": [
+    1200,
+    1500,
+    1800,
+    2100,
+    2520
+  ],
+  "rejected_mhz": []
+}

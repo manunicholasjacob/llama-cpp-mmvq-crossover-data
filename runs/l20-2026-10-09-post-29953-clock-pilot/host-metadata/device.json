@@ -1,0 +1,8 @@
+{
+  "name": "NVIDIA L20",
+  "cc": "8.9",
+  "sm_count": 92,
+  "memory_bytes": 47665709056,
+  "l2_bytes": 100663296,
+  "memory_bus_bits": 384
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "primary",
+  "round": 0,
+  "clock": 2100,
+  "model": "8b",
+  "quant": "Q8_0",
+  "world": "cutoff7",
+  "position": 1,
+  "ns": [
+    8
+  ],
+  "start": 1791541340.6835876,
+  "end": 1791541343.9071097
+}

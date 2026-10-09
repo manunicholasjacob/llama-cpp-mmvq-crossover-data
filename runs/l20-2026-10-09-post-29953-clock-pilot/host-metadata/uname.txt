@@ -1,0 +1,1 @@
+Linux <HOSTNAME_REDACTED> 5.15.0-191-generic #201-Ubuntu SMP Fri Aug 7 18:39:04 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
