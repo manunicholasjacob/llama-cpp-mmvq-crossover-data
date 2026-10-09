@@ -1,0 +1,56 @@
+{
+  "schema": "issue28090-fixed-pilot-v1",
+  "date": "2026-10-09",
+  "purpose": "Decide whether a post-29953, single-L20 result justifies designing a candidate selector before renting any second GPU",
+  "fixed_commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+  "positive_control_parent": "c35b66744f13cb0dcc476af063e112122eee9355",
+  "toolchain": "CUDA toolkit 13.0.88, architecture 89, exact driver/compiler recorded",
+  "hardware": {"gpu": "one exclusive full NVIDIA L20 48GB", "sm_count": 92, "cc": "8.9", "cpu_min": 8, "ram_gib_min": 64, "free_disk_gb": 150, "clock_control": "root and effective nvidia-smi -lgc/-rgc permission"},
+  "questions": [
+    "Does the immediate pre-fix exact-allocation positive control reproduce a tail over-read, while the fixed exact-allocation run has zero errors and passes the same numerical cases?",
+    "On the fixed source, is dense n8 on 8B materially faster with MMQ at 810 MHz?",
+    "Does the winner change in the same session with the graphics clock reset to the device default?",
+    "Does the 1B Q8_0 negative/control workload still prevent a blanket rule?"
+  ],
+  "admission": {
+    "numerical_cases_per_world": 168,
+    "coverage": "Q4_0/Q8_0 x n2..8 x 12 attention/FFN shapes; no full-model correctness or MoE acceptance",
+    "parent_force_exact": "Required positive control: memcheck error-exitcode 99, Invalid __global__ read, numerical 168/168",
+    "fixed_force_exact": "Required memcheck zero errors plus numerical 168/168; exact cudaMalloc pool; CUDA Graph OFF",
+    "stock_selected_and_cutoff7": "Required numerical 168/168",
+    "memcheck_options": ["--tool", "memcheck", "--padding", "65536", "--error-exitcode", "99"],
+    "on_failure": "Preserve logs and STOP; no exploratory bypass"
+  },
+  "timing": {
+    "worlds": ["selected", "cutoff7", "null_rebuild"],
+    "stock_pools_only": true,
+    "clock_conditions": ["810 MHz locked", "device default after reset; record achieved clocks, do not assume 2520 MHz"],
+    "memory_clock": "do not change; record actual clocks; >1% change between conditions makes frequency attribution inconclusive",
+    "cases": ["8B Q4_0", "8B Q8_0", "1B Q8_0"],
+    "n": [1, 8, 16],
+    "outer_rounds": 6,
+    "inner_repeats": 100,
+    "expected_invocations": 216,
+    "expected_rows": 324,
+    "order": "alternate clock-condition order by round; rotate 3 worlds and 3 files by round; n8 in its own invocation",
+    "flags": "-ngl 999 -fa 1 -n 0 -embd 1 -t 4 -b 2048 -ub 512 -r 100 -o json",
+    "controls": "n1 and n16 must route identically; null_rebuild is an independent same-source rebuild",
+    "telemetry": "100 ms invocation-wide samples; n8 invocation includes its load/warmup but excludes n1/n16 measurements",
+    "timeout": "60 minutes for timing; preserve incomplete run on expiry"
+  },
+  "analysis": {
+    "unit": "six outer rounds, not 100 inner repetitions",
+    "estimate": "paired geometric mean and 95% percentile bootstrap, Random(0), 10000 resamples",
+    "pilot_noise_floor": "max |paired_gm(null_rebuild/selected)-1| over n={1,8,16}; different from the old full-sweep n2..8 definition",
+    "control_quality": "pilot null floor and max cutoff7/selected deviation at n1/n16 must both be <=2%",
+    "material_win": "ratio >=1+max(3%, pilot null floor, route control deviation), CI lower >1+floor, at least 5/6 paired wins",
+    "material_loss": "symmetric negative condition with at most 1/6 wins",
+    "low_clock_quality": "at least 90% busy samples within 810 +/-15 MHz in each n8 invocation",
+    "frequency_separation": "default achieved mean >=1.5x low condition for each file and world",
+    "go": "passing safety/admission, valid controls/telemetry, and at least one material 8B win: review a concrete candidate rule before any second GPU",
+    "no_go": "valid run but no material 8B win: stop expanding; document result",
+    "inconclusive": "safety, controls, telemetry, download or build failure: diagnose with this machine; do not buy another GPU"
+  },
+  "limitations": ["One GPU cannot establish a portable selection rule", "Default clocks can differ between algorithms; compare telemetry before causal claims", "Historical b968 measurements are context only; current-source tests cannot isolate #29953 from all changes since b968", "Passing this focused gate is not full regression, full-model numerical acceptance, or a mergeable optimization PR"],
+  "spending": "One device only; check admission before long runs; initial 2-3h working allowance is an estimate, not measured runtime or prepaid commitment; review elapsed cost at 60 min"
+}

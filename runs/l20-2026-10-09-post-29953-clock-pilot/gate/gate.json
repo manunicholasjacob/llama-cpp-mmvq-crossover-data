@@ -1,0 +1,79 @@
+{
+  "status": "PASSED_FOCUSED_DENSE_GATE",
+  "protocol_revision": "issue28090-admission-amendment-v2",
+  "build_sha256": "a51c84d41decae7dfd447dfaf0fe0aa6cada8c3d58cfcd43ef39dc8b62f13266",
+  "harness_sha256": "10b101ab5722012af5e4bdac2ca428d3ad9fafd429ea6352e6f1761f0004e0cf",
+  "commands": [
+    {
+      "world": "parent_force_exact",
+      "returncode": 99,
+      "numerical_168_pass": false,
+      "memcheck_zero": false,
+      "log_sha256": "e741a8ee75fc3e5363a9789078922e827b05027b80c1d9a8f36cfb09da32e989",
+      "command": [
+        "compute-sanitizer",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "99",
+        "--padding",
+        "65536",
+        "--target-processes",
+        "all",
+        "/root/issue28090_fixed_pilot_20261009/work/parent_force_exact/build/bin/dense-gate"
+      ]
+    },
+    {
+      "world": "fixed_force_exact",
+      "returncode": 0,
+      "numerical_168_pass": true,
+      "memcheck_zero": true,
+      "log_sha256": "4be1b530b06f1ff83437c51224af7100708d22bc5f4200f1c11d5a73ff608b41",
+      "command": [
+        "compute-sanitizer",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "99",
+        "--padding",
+        "65536",
+        "--target-processes",
+        "all",
+        "/root/issue28090_fixed_pilot_20261009/work/fixed_force_exact/build/bin/dense-gate"
+      ]
+    },
+    {
+      "world": "selected",
+      "returncode": 0,
+      "numerical_168_pass": true,
+      "memcheck_zero": false,
+      "log_sha256": "1e8755ca616f0035bad08fb6f8a4ac635f6c7c1f54b3711fe393ba37b6f2ef3e",
+      "command": [
+        "/root/issue28090_fixed_pilot_20261009/work/selected/build/bin/dense-gate"
+      ]
+    },
+    {
+      "world": "cutoff7",
+      "returncode": 0,
+      "numerical_168_pass": true,
+      "memcheck_zero": false,
+      "log_sha256": "616fe068c956edde20da45690e84683cef044b832f3794f148fd0475df35da1f",
+      "command": [
+        "/root/issue28090_fixed_pilot_20261009/work/cutoff7/build/bin/dense-gate"
+      ]
+    }
+  ],
+  "amendment": {
+    "schema": "issue28090-admission-amendment-v2",
+    "declared_unix": 1791515218.3350894,
+    "reason": "v1 positive control detected MMQ OOB reads and then aborted under memcheck; requiring numerical completion of the intentionally faulty control was over-constrained",
+    "documentation": "https://docs.nvidia.com/compute-sanitizer/ComputeSanitizer/index.html#error-actions",
+    "original_protocol_sha256": "13ada6d5682100291d49dd75b4884283727296dbef1583e5a3bc8986195efced",
+    "original_gate_folder": "gates/1791514484179779852",
+    "original_gate_json_sha256": "cf025f44cc489c2ba3a5863822413cfe04784f5aeb9b869b47337cc21722b07c",
+    "positive_control": "Same-harness immediate parent must report MMQ Invalid __global__ read and nonzero error summary; it may abort or complete",
+    "fixed_requirements": "Unchanged: fixed exact memcheck zero errors and 168/168 numerical; stock selected and cutoff7 each 168/168 numerical",
+    "timing_and_analysis": "Unchanged; no model performance observations exist when this amendment is declared",
+    "parent_memcheck_error_count": 1842
+  }
+}

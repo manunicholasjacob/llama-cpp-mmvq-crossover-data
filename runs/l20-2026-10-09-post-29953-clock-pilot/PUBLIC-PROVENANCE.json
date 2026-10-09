@@ -1,0 +1,45 @@
+{
+  "schema": "l20-fixed-public-provenance-v1",
+  "original_result_id": "l20-fixed-1791517027708899505",
+  "original_collected_files": 923,
+  "original_manifest_sha256": "745ec9722aa07e01c8c7cf47b7f70431e9c28ec2726528dcdc6d338eb0bd82e6",
+  "private_transfer_archive_sha256": "1577181e80f9f4283f734778f2fcb68a2400ad84f4c7f60e3c46ffc0865d297f",
+  "redactions": {
+    "host-metadata/nvidia-smi.txt": {
+      "original_sha256": "fe65a5a8261c4d526c48ff1c3c6e8f101b74af17d47af1f9754faa97eb8f47c3",
+      "public_sha256": "bb1b4c89a926b14559a3f7476fb5b53bfad17ac64ede024502b3343b7ad8fd18",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    },
+    "host-metadata/uname.txt": {
+      "original_sha256": "15f00be432bcfe775c5d6a67528a3f083dc8c8897e36c2ce7b011a2d56d87d0b",
+      "public_sha256": "5f9fe70edbd1f08d1cb50932392a1467e9da5693afa20d3e629e44f41a38e846",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    },
+    "build/parent_force_exact/CMakeCache.txt": {
+      "original_sha256": "f74809fde4970c536cb363ba1c3435d64f24c859ee8acf3f7a7250fb308c1a72",
+      "public_sha256": "393b2a0a6cc241afe41b466bd387561c0dfd5f75264dc93c06f73aabd50c5f05",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    },
+    "build/cutoff7/CMakeCache.txt": {
+      "original_sha256": "ca9abd4827cae0eb45842023f7f8bfeed2a21e05b82b3d697d19b72c0193616c",
+      "public_sha256": "7e031fd0a3b8c176da4ec256a7da2d4a28d1827e025870f024f0ee554cc4fe5b",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    },
+    "build/null_rebuild/CMakeCache.txt": {
+      "original_sha256": "2945535e726622be829e0fa2928e2eea7538e96304c097d4387a105b080662ed",
+      "public_sha256": "a59daaeabc829a667cfb59e7197e76862078c4c44580fa42677ee5ab91554f6c",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    },
+    "build/selected/CMakeCache.txt": {
+      "original_sha256": "414b5f126ff4e166f4d5061c1770cb58979247d842876b766cbbcb67de16503d",
+      "public_sha256": "52d624b3c2f9901715e96e3586b63d01d38edda3f8f88a272db103377d365610",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    },
+    "build/fixed_force_exact/CMakeCache.txt": {
+      "original_sha256": "362c5575607a685d7ec9c0e49e1254700f813dbb3be7263240f82fb602e5f4b7",
+      "public_sha256": "6fcdfe4958d0dde33382af9ae00aa04a2ff3e0c59d16e95e1e0d8fd3f9206860",
+      "reason": "Remove transient server hostname or GPU UUID/serial; benchmark and numerical data unchanged"
+    }
+  },
+  "preservation": "All other originally collected files are byte-identical. Original full bytes remain in the local evidence archive; it is not uploaded because it includes machine identifiers. The original SHA256SUMS.json is retained unchanged; SHARE_SHA256SUMS covers the public package including the seven derived metadata files and additions."
+}

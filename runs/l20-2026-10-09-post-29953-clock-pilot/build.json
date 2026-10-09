@@ -1,0 +1,197 @@
+{
+  "selected": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DEXPERIMENT_SOURCE=/root/issue28090_fixed_pilot_20261009/work/selected/src",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler"
+    ],
+    "wall_s": 555.9461784362793,
+    "binaries": {
+      "dense-gate": "6b9dcede6e5f975d9cfc84f6595749a176025abef34590eed4016d17d790a35d",
+      "llama-bench": "7e14ab44e78ab7325d505777ca7096030d6fe69ae97ea43065b23537280bf301"
+    },
+    "sources": {
+      "mmvq.cu": "f1c9110989e9a3feb427a5b4404c124027c5dd6d6d59f5d1c963ad2330a8b537",
+      "ggml-cuda.cu": "f841ee305c86bc67dd238f7364d38aa8dfb002463e80f3a95ca26cafdeb430ab",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  },
+  "cutoff7": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DEXPERIMENT_SOURCE=/root/issue28090_fixed_pilot_20261009/work/cutoff7/src",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler"
+    ],
+    "wall_s": 554.60204911232,
+    "binaries": {
+      "dense-gate": "51c73576d5adc7e9c4fac27d2ec8032e23036d70c359bcd6a390961c4bddb6c4",
+      "llama-bench": "4915c42cc16eb16ded81f3eb1186a1f35e7d3ed7b349211f468a4fd5c26aa127"
+    },
+    "sources": {
+      "mmvq.cu": "854f436ade7333306abc3e6a8821b75a8bf4bf766acf16dff379fef14be8ceef",
+      "ggml-cuda.cu": "f841ee305c86bc67dd238f7364d38aa8dfb002463e80f3a95ca26cafdeb430ab",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  },
+  "null_rebuild": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DEXPERIMENT_SOURCE=/root/issue28090_fixed_pilot_20261009/work/null_rebuild/src",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler"
+    ],
+    "wall_s": 554.036657333374,
+    "binaries": {
+      "dense-gate": "ba28ad614e12427a2e702ee43fb5dfa70baf2e75c33ca8a57779f12490be6e9c",
+      "llama-bench": "a71becbf077cc8f89849dfdcfbf014207c1b000270a052c146ca501815c20ec6"
+    },
+    "sources": {
+      "mmvq.cu": "f1c9110989e9a3feb427a5b4404c124027c5dd6d6d59f5d1c963ad2330a8b537",
+      "ggml-cuda.cu": "f841ee305c86bc67dd238f7364d38aa8dfb002463e80f3a95ca26cafdeb430ab",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  },
+  "fixed_force_exact": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DEXPERIMENT_SOURCE=/root/issue28090_fixed_pilot_20261009/work/fixed_force_exact/src",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler",
+      "-DGGML_CUDA_GRAPHS=OFF"
+    ],
+    "wall_s": 486.679673910141,
+    "binaries": {
+      "dense-gate": "cb8eaf7240d93c250c987687ecb71d40b898232fdb662564d3036fd0ce33d1a8"
+    },
+    "sources": {
+      "mmvq.cu": "0f4199b5085d6ced786e16c86fdee00fc097f7eeb6dcc222b8b31e923e3648e3",
+      "ggml-cuda.cu": "5e37e9d8eabf10629bd97feb38b51d3118ea74dd17db4323f7bcc652c81ae1fb",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  },
+  "parent_force_exact": {
+    "commit": "c35b66744f13cb0dcc476af063e112122eee9355",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=c35b66744f13cb0dcc476af063e112122eee9355",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DEXPERIMENT_SOURCE=/root/issue28090_fixed_pilot_20261009/work/parent_force_exact/src",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler",
+      "-DGGML_CUDA_GRAPHS=OFF"
+    ],
+    "wall_s": 473.8982014656067,
+    "binaries": {
+      "dense-gate": "1c8193f862deacfe953e628bffa3b958f4604822e4d9ae1631b819327ac682ce"
+    },
+    "sources": {
+      "mmvq.cu": "0f4199b5085d6ced786e16c86fdee00fc097f7eeb6dcc222b8b31e923e3648e3",
+      "ggml-cuda.cu": "5e37e9d8eabf10629bd97feb38b51d3118ea74dd17db4323f7bcc652c81ae1fb",
+      "mmq.cu": "94111d3fbebfe82f8d36b1cf07471c477ba8d9bd287bfd7934ce97a13004bdbd",
+      "mmq.cuh": "bc79d7cd87b6d8914ba11ee7da98bd3173687fb9a693ed6fbde3561064904169"
+    }
+  }
+}
