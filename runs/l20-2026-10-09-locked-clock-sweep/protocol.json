@@ -1,0 +1,42 @@
+{
+  "schema": "issue28090-l20-clock-sweep-v1",
+  "date": "2026-10-09",
+  "purpose": "Measure the n=8 MMQ/MMVQ crossover against locked SM clocks on one L20, on the same source as the 9 Oct 810-vs-default run",
+  "fixed_commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+  "toolchain": "CUDA toolkit 13.0.1, NVCC 13.0.88, architecture 89",
+  "hardware": {"gpu": "one exclusive full NVIDIA L20 48GB", "sm_count": 92, "cc": "8.9"},
+  "grid_mhz": [1200, 1500, 1800, 2100],
+  "high_candidates_mhz": [2520, 2460, 2400, 2310, 2250],
+  "pin_tolerance_mhz": 15,
+  "not_repeated": ["810 MHz timing", "compute-sanitizer gate", "parent mmq positive control"],
+  "prior_anchor": "9 Oct L20 result at 810 MHz on this commit stays outside this paired estimate",
+  "probe": {
+    "workload": "8B Q4_0, selected and cutoff7, n=8, 30 repeats",
+    "accept": "every busy sample of both binaries within +/-15 MHz",
+    "grid": "a grid lock that fails is omitted, not relabeled",
+    "high": "descending candidates; keep the first that holds; stop after it",
+    "stop": "1200 MHz must hold, and at least three locks must hold, before the paired sweep"
+  },
+  "timing": {
+    "worlds": ["selected", "cutoff7", "null_rebuild"],
+    "primary_cases": ["8B Q4_0", "8B Q8_0"],
+    "primary_n": [8],
+    "outer_rounds": 6,
+    "inner_repeats": 100,
+    "route_controls": "n=1 and n=16 once at the lowest and highest accepted locks, both 8B files, three worlds",
+    "small_model": "1B Q8_0 at the per-type boundary locks only, six rounds, n=8, after the 8B curve is reduced",
+    "flags": "-ngl 999 -fa 1 -n 0 -embd 1 -t 4 -b 2048 -ub 512 -r 100 -o json",
+    "order": "rotate clock, world, and file order by round",
+    "memory_clock": "do not change; more than 1% difference across accepted locks makes the run inconclusive",
+    "timing_budget_minutes": 150
+  },
+  "analysis": {
+    "unit": "six outer rounds",
+    "estimate": "paired geometric mean of cutoff7/selected and 95% percentile bootstrap, Random(0), 10000 resamples",
+    "null_floor": "absolute paired geometric-mean deviation of null_rebuild/selected at n=8; must be <=2% for that lock to stay in the curve",
+    "material_win": "control passes, ratio >= 1.03, all six rounds above 1, and the bootstrap lower bound above 1",
+    "material_loss": "control passes, ratio <= 0.97, all six rounds below 1, and the bootstrap upper bound below 1",
+    "crossover": "lowest adjacent pair that changes from a material win to not a material win; Q4_0 and Q8_0 stay separate; a later win after a loss is nonmonotonic and is not averaged into one cutoff",
+    "decision": "CURVE_READY_FOR_REVIEW only with 1200 MHz valid, at least three valid locks, route controls within 2%, and no thermal or memory-clock failure. This decision is not a portable rule and is not a llama.cpp patch."
+  }
+}

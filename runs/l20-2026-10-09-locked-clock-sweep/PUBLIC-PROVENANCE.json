@@ -1,0 +1,35 @@
+{
+  "schema": "l20-clock-sweep-public-provenance-v1",
+  "original_result_id": "l20-sweep-1791541221519708069",
+  "original_collected_files": 1064,
+  "original_manifest_sha256": "0c7d3c3396fb247acc8e093e39118bb47f65a32a1e20e36505d1e98de663a70f",
+  "private_transfer_archive_sha256": "a51308ea402dcab30f8d9fcf6067b1a64e62578b6144621e937be20a3e24e9a8",
+  "redactions": {
+    "host-metadata/nvidia-smi.txt": {
+      "original_sha256": "5f815f589da9838a6aa643f140fa0bd978e9b20b5db67ba02c9f8b6feb75e67e",
+      "public_sha256": "d15f6fba00ad7cd3c487a1ed1e436093fead42b24334ed1c15e5a49dae7ba1b6",
+      "reason": "Remove transient hostname or GPU identifier; measurement data unchanged"
+    },
+    "host-metadata/uname.txt": {
+      "original_sha256": "056b0202c8a283dfde131b31a80d10796c9ca82a7dbcd1cb022cad5165c261d8",
+      "public_sha256": "d6d0a994b7ab3d0e495cb4b2d90966cc583727473ba5447b96f8ba6118b7b237",
+      "reason": "Remove transient hostname or GPU identifier; measurement data unchanged"
+    },
+    "build/cutoff7/CMakeCache.txt": {
+      "original_sha256": "65895910e8ade35efbbf9fb2da57285d56a2891a105834e48e4b9b5b1a369d76",
+      "public_sha256": "461082e59b2a9bf9c73f666e88c9f969763e19455d439567b2196922cb93f0c6",
+      "reason": "Remove transient hostname or GPU identifier; measurement data unchanged"
+    },
+    "build/null_rebuild/CMakeCache.txt": {
+      "original_sha256": "65fb05a0fdbc9386576889dd78a63a1803c528ea2a0aa9c472a23684ea1b080f",
+      "public_sha256": "350d7fe7ae3efceb0d172082192c2a11a9577be56ffbb35acd03db9b8e6215da",
+      "reason": "Remove transient hostname or GPU identifier; measurement data unchanged"
+    },
+    "build/selected/CMakeCache.txt": {
+      "original_sha256": "a5eb9761e79b4328f5b12895820129c4215ddc3fb7c8789c1c6de30bba26d786",
+      "public_sha256": "268ff18e15ff797ea991f8fd25beec95f2c82ed3c145aa0bb05f0008f1d7feb5",
+      "reason": "Remove transient hostname or GPU identifier; measurement data unchanged"
+    }
+  },
+  "preservation": "All other originally collected files are byte-identical. Original SHA256SUMS.json is unchanged; SHARE_SHA256SUMS covers the public package and additions. The private archive is not published."
+}

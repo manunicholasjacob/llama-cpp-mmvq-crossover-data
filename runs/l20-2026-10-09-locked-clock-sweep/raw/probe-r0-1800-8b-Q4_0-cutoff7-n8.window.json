@@ -1,0 +1,14 @@
+{
+  "phase": "probe",
+  "round": 0,
+  "clock": 1800,
+  "model": "8b",
+  "quant": "Q4_0",
+  "ns": [
+    8
+  ],
+  "world": "cutoff7",
+  "position": 0,
+  "start": 1791541236.5390358,
+  "end": 1791541237.9826233
+}

@@ -1,0 +1,2318 @@
+[
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "route_control",
+    "round": 0,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      1,
+      16
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 1,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 2,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 3,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 4,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1200,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1500,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 1800,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2100,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q8_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "null_rebuild",
+    "position": 0,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "selected",
+    "position": 1,
+    "ns": [
+      8
+    ]
+  },
+  {
+    "phase": "primary",
+    "round": 5,
+    "clock": 2520,
+    "model": "8b",
+    "quant": "Q4_0",
+    "world": "cutoff7",
+    "position": 2,
+    "ns": [
+      8
+    ]
+  }
+]

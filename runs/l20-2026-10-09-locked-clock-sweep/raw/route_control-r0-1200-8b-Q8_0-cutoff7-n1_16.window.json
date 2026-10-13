@@ -1,0 +1,15 @@
+{
+  "phase": "route_control",
+  "round": 0,
+  "clock": 1200,
+  "model": "8b",
+  "quant": "Q8_0",
+  "world": "cutoff7",
+  "position": 1,
+  "ns": [
+    1,
+    16
+  ],
+  "start": 1791541282.6635215,
+  "end": 1791541287.5453064
+}

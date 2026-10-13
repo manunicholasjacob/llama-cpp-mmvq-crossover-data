@@ -1,0 +1,113 @@
+{
+  "selected": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler"
+    ],
+    "wall_s": 497.0209290981293,
+    "binaries": {
+      "llama-bench": "3bf100fb113e93b88f4af8ec9a7249285dead739a608b550c4823c6f412c8c0d"
+    },
+    "sources": {
+      "mmvq.cu": "f1c9110989e9a3feb427a5b4404c124027c5dd6d6d59f5d1c963ad2330a8b537",
+      "ggml-cuda.cu": "f841ee305c86bc67dd238f7364d38aa8dfb002463e80f3a95ca26cafdeb430ab",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  },
+  "cutoff7": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler"
+    ],
+    "wall_s": 497.16434812545776,
+    "binaries": {
+      "llama-bench": "4f498ad29c8d73de039920ce3342115581e209fe09db99c8351c72672b0882e1"
+    },
+    "sources": {
+      "mmvq.cu": "854f436ade7333306abc3e6a8821b75a8bf4bf766acf16dff379fef14be8ceef",
+      "ggml-cuda.cu": "f841ee305c86bc67dd238f7364d38aa8dfb002463e80f3a95ca26cafdeb430ab",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  },
+  "null_rebuild": {
+    "commit": "fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+    "flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_BACKEND_DL=OFF",
+      "-DGGML_CCACHE=OFF",
+      "-DGGML_NATIVE=ON",
+      "-DLLAMA_BUILD_TESTS=ON",
+      "-DLLAMA_BUILD_COMMON=ON",
+      "-DLLAMA_BUILD_TOOLS=ON",
+      "-DLLAMA_BUILD_EXAMPLES=ON",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_APP=OFF",
+      "-DLLAMA_BUILD_MTMD=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_COMMIT=fc9ce6b9d52a8504edcb262abc92737c2289f96c",
+      "-DLLAMA_BUILD_NUMBER=0",
+      "-DGGML_CUDA=ON",
+      "-DCMAKE_CUDA_ARCHITECTURES=89",
+      "-DGGML_CUDA_NO_VMM=OFF",
+      "-DGGML_CUDA_FA_ALL_QUANTS=OFF",
+      "-DGGML_CUDA_FORCE_MMQ=OFF",
+      "-DGGML_CUDA_FORCE_CUBLAS=OFF",
+      "-DCMAKE_CUDA_FLAGS=-allow-unsupported-compiler"
+    ],
+    "wall_s": 492.1696181297302,
+    "binaries": {
+      "llama-bench": "9378dd84c5c5ebaabd517e93f74a6a834c6dac24fbd2b3bb2c288c5edcfdefb2"
+    },
+    "sources": {
+      "mmvq.cu": "f1c9110989e9a3feb427a5b4404c124027c5dd6d6d59f5d1c963ad2330a8b537",
+      "ggml-cuda.cu": "f841ee305c86bc67dd238f7364d38aa8dfb002463e80f3a95ca26cafdeb430ab",
+      "mmq.cu": "95b5218b54ab8c0847c74b30d14e890549bd7f1d2bbab21aa94b2a4300da75ce",
+      "mmq.cuh": "14ac6a8e1f030af78dda8f5f3fae5b0342de53e61e97b324c31a380eda1803d2"
+    }
+  }
+}

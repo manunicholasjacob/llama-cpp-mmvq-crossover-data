@@ -1,0 +1,13 @@
+{
+  "schema": "issue28090-admission-amendment-v2",
+  "declared_unix": 1791515218.3350894,
+  "reason": "v1 positive control detected MMQ OOB reads and then aborted under memcheck; requiring numerical completion of the intentionally faulty control was over-constrained",
+  "documentation": "https://docs.nvidia.com/compute-sanitizer/ComputeSanitizer/index.html#error-actions",
+  "original_protocol_sha256": "13ada6d5682100291d49dd75b4884283727296dbef1583e5a3bc8986195efced",
+  "original_gate_folder": "gates/1791514484179779852",
+  "original_gate_json_sha256": "cf025f44cc489c2ba3a5863822413cfe04784f5aeb9b869b47337cc21722b07c",
+  "positive_control": "Same-harness immediate parent must report MMQ Invalid __global__ read and nonzero error summary; it may abort or complete",
+  "fixed_requirements": "Unchanged: fixed exact memcheck zero errors and 168/168 numerical; stock selected and cutoff7 each 168/168 numerical",
+  "timing_and_analysis": "Unchanged; no model performance observations exist when this amendment is declared",
+  "parent_memcheck_error_count": 1842
+}

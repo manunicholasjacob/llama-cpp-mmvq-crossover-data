@@ -1,0 +1,27 @@
+{
+  "status": "FAILED_OR_INTERRUPTED",
+  "build_sha256": "a51c84d41decae7dfd447dfaf0fe0aa6cada8c3d58cfcd43ef39dc8b62f13266",
+  "harness_sha256": "10b101ab5722012af5e4bdac2ca428d3ad9fafd429ea6352e6f1761f0004e0cf",
+  "commands": [
+    {
+      "world": "parent_force_exact",
+      "returncode": 99,
+      "numerical_168_pass": false,
+      "memcheck_zero": false,
+      "log_sha256": "e741a8ee75fc3e5363a9789078922e827b05027b80c1d9a8f36cfb09da32e989",
+      "command": [
+        "compute-sanitizer",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "99",
+        "--padding",
+        "65536",
+        "--target-processes",
+        "all",
+        "/root/issue28090_fixed_pilot_20261009/work/parent_force_exact/build/bin/dense-gate"
+      ]
+    }
+  ],
+  "error": "Pre-fix positive control did not reproduce a numerical-pass over-read; investigate, do not proceed"
+}

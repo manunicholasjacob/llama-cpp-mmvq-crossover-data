@@ -1,0 +1,14 @@
+{
+  "phase": "small_model",
+  "round": 1,
+  "clock": 1500,
+  "model": "1b",
+  "quant": "Q8_0",
+  "world": "null_rebuild",
+  "position": 1,
+  "ns": [
+    8
+  ],
+  "start": 1791541862.943299,
+  "end": 1791541864.1120503
+}
